@@ -82,3 +82,23 @@ Esse comando compilará todos os pacotes do workspace. Após a construção, voc
 1. Certifique-se de que sua GPU NVIDIA está corretamente configurada para o Docker (se aplicável).
 2. Caso precise de pacotes adicionais, lembre-se de atualizar o Dockerfile e reconstruir a imagem.
 3. Qualquer erro durante a execução deve ser consultado nos logs dentro da pasta `log`.
+
+## Passo 6 - Inicializando ROS2
+
+
+Execute o comando dentro do container:
+</p>
+
+bash
+ros2 launch ro
+
+
+## Passo 7 - Visualizando o Manipulador no RVIZ
+Execute o comando dentro do container:
+</p>
+
+bash
+ros2 launch robot_description robot.display.launch.py
+
+
+Pronto, o RVIZ será aberto e você poderá visualizar o modelo do Manipulador, além de mexer em suas juntas isoladamente.
