@@ -1,0 +1,3 @@
+[INFO] [1734213236.971854557] [spawn_entity]: Spawn Entity started
+[INFO] [1734213236.972463762] [spawn_entity]: Loading entity published on topic robot_description
+[INFO] [1734213236.975686158] [spawn_entity]: Waiting for entity xml on robot_description

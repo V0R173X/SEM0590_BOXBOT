@@ -1,0 +1,7 @@
+[INFO] [1734232812.822225996] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1734232812.822384920] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1734232812.865030146] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1734232816.066958540] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1734232816.157293273] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[ERROR] [1734232826.283503911] [rviz]: Could not find parameter robot_description and did not receive robot_description via std_msgs::msg::String subscription within 10.000000 seconds.
+[INFO] [1734232833.337923305] [rclcpp]: signal_handler(signum=2)

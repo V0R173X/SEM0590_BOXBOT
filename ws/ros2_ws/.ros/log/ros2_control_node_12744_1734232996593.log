@@ -1,0 +1,28 @@
+[WARN] [1734232996.649895688] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1734232996.652792302] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1734232996.655728026] [resource_manager]: Initialize hardware 'FakeSystem' 
+[WARN] [1734232996.655850923] [mock_generic_system]: Parsing of optional initial interface values failed or uses a deprecated format. Add initial values for every state interface in the ros2_control.xacro. For example: 
+<state_interface name="velocity"> 
+  <param name="initial_value">0.0</param> 
+</state_interface>
+[INFO] [1734232996.655888722] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1734232996.655997604] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1734232996.656022470] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1734232996.656039856] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1734232996.656055820] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[WARN] [1734232996.691312533] [controller_manager]: Unable to lock the memory : 'No proper privileges to lock the memory!'
+[INFO] [1734232996.691396927] [controller_manager]: update rate is 100 Hz
+[INFO] [1734232996.691425226] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1734232996.701231357] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1734232998.078458429] [controller_manager]: Loading controller 'arm_controller'
+[WARN] [1734232998.092798955] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1734232998.132510438] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1734232998.167744887] [controller_manager]: Configuring controller 'arm_controller'
+[INFO] [1734232998.168345091] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1734232998.168421790] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1734232998.168492312] [arm_controller]: Using 'splines' interpolation method.
+[INFO] [1734232998.174460640] [arm_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1734232998.184905659] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1734232998.345862491] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1734232998.346278225] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1734233030.006461727] [rclcpp]: signal_handler(signum=2)

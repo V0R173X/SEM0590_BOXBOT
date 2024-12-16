@@ -1,0 +1,13 @@
+1734212482.0784066 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-18-41-22-077555-math-2752
+1734212482.0785501 [INFO] [launch]: Default logging verbosity is set to INFO
+1734212482.8979859 [INFO] [robot_state_publisher-1]: process started with pid [2753]
+1734212482.8983033 [INFO] [joint_state_publisher_gui-2]: process started with pid [2755]
+1734212482.8984733 [INFO] [rviz2-3]: process started with pid [2757]
+1734212482.8986192 [INFO] [gzserver-4]: process started with pid [2759]
+1734212482.8987556 [INFO] [gzclient-5]: process started with pid [2761]
+1734212483.3574996 [ERROR] [robot_state_publisher-1]: process has died [pid 2753, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher --params-file /tmp/launch_params_5165wggz'].
+1734212483.4709754 [ERROR] [gzserver-4]: process has died [pid 2759, exit code 255, cmd 'gzserver /home/ros2_ws/install/robot_description/share/robot_description/worlds/empty.world -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+1734212487.1664276 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734212487.1719439 [ERROR] [joint_state_publisher_gui-2]: process has died [pid 2755, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734212487.3408701 [INFO] [rviz2-3]: process has finished cleanly [pid 2757]
+1734212487.4216819 [INFO] [gzclient-5]: process has finished cleanly [pid 2761]

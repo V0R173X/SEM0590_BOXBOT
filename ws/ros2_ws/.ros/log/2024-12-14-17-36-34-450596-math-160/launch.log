@@ -1,0 +1,9 @@
+1734208594.4511647 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-17-36-34-450596-math-160
+1734208594.4512804 [INFO] [launch]: Default logging verbosity is set to INFO
+1734208594.5064881 [INFO] [joint_state_publisher_gui-1]: process started with pid [161]
+1734208594.5066400 [INFO] [robot_state_publisher-2]: process started with pid [163]
+1734208594.5067341 [INFO] [rviz2-3]: process started with pid [165]
+1734208599.1235337 [INFO] [joint_state_publisher_gui-1]: process has finished cleanly [pid 161]
+1734208600.6110322 [INFO] [rviz2-3]: process has finished cleanly [pid 165]
+1734208601.8146341 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734208601.9228177 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 163]

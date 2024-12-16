@@ -1,0 +1,16 @@
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1734212446 362337070) [Msg] Waiting for master.
+(1734212446 373741941) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1734212446 373784407) [Msg] Publicized address: 192.168.100.44
+(1734212446 714368143) [Wrn] [SystemPaths.cc:459] File or path does not exist ["/home/ros2_ws/install/robot_description/share/robot_description/worlds/empty.world"] [/home/ros2_ws/install/robot_description/share/robot_description/worlds/empty.world]
+(1734212446 714426987) [Err] [Server.cc:472] Could not open file[/home/ros2_ws/install/robot_description/share/robot_description/worlds/empty.world]
+(1734212446 716604605) [Wrn] [Server.cc:381] Falling back on worlds/empty.world
+(1734212446 841097092) [Msg] Loading world file [/usr/share/gazebo-11/worlds/empty.world]
+(1734212446 947979367) [Err] [OpenAL.cc:84] Unable to open audio device[default]
+ Audio will be disabled.
+(1734212447 158367347) Init world[default]

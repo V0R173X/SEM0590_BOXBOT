@@ -1,0 +1,7 @@
+[WARN] [1734213020.693842222] [robot_state_publisher]: No robot_description parameter, but command-line argument available.  Assuming argument is name of URDF file.  This backwards compatibility fallback will be removed in the future.
+[INFO] [1734213020.789868401] [robot_state_publisher]: got segment base_footprint
+[INFO] [1734213020.789943841] [robot_state_publisher]: got segment base_link
+[INFO] [1734213020.789959062] [robot_state_publisher]: got segment end_effector
+[INFO] [1734213020.789972035] [robot_state_publisher]: got segment manip_link
+[INFO] [1734213020.789984421] [robot_state_publisher]: got segment plat_link
+[INFO] [1734213062.578306556] [rclcpp]: signal_handler(signum=2)

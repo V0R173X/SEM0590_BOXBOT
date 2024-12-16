@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="base">
+
+  <!-- Definição da macro 'base' -->
+  <xacro:macro name="base" params="">
+    <!-- Definição do link base -->
+    <link name="base_footprint">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <box size="0.001 0.001 0.001" />
+        </geometry>
+      </visual>
+    </link>
+
+    <!-- Junta fixa ligando base_footprint e base_link -->
+    <joint name="base_footprint_joint" type="fixed">
+      <origin xyz="0 0 0.001" rpy="0 0 0" />
+      <parent link="base_footprint" />
+      <child link="base_link" />
+    </joint>
+
+    <!-- Link base principal -->
+    <link name="base_link">
+      <inertial>
+        <origin xyz="-0.00387269076431251 0.00879907183501763 0.102290539068193" rpy="0 0 0" />
+        <mass value="2.55227730862531" />
+        <inertia
+          ixx="0.0180850747883433"
+          ixy="-0.000148734943128301"
+          ixz="0.000550950029532688"
+          iyy="0.0211868617083357"
+          iyz="-0.000396573379381312"
+          izz="0.0237077815645754" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file://$(find robot_description)/meshes/visual/base_link.STL" />
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file://$(find robot_description)/meshes/visual/base_link.STL" />
+        </geometry>
+      </collision>
+    </link>
+  </xacro:macro>
+
+</robot>

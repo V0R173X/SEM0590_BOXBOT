@@ -1,0 +1,5 @@
+1734221087.0303330 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-21-04-47-028674-math-5866
+1734221087.0306394 [INFO] [launch]: Default logging verbosity is set to INFO
+1734221087.1198373 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - NameError: name 'Command' is not defined
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

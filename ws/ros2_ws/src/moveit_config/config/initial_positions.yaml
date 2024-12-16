@@ -1,0 +1,6 @@
+# Default initial positions for robot_description's ros2_control fake system
+
+initial_positions:
+  end_effector_joint: 0
+  manip_joint: 0
+  plat_joint: 0

@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000692] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000834] (moveit_config) JobQueued: {'identifier': 'moveit_config', 'dependencies': OrderedDict([('robot_description', '/home/ros2_ws/install/robot_description')])}
+[0.000882] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.098758] (-) TimerEvent: {}
+[0.199051] (-) TimerEvent: {}
+[0.299448] (-) TimerEvent: {}
+[0.399842] (-) TimerEvent: {}
+[0.500214] (-) TimerEvent: {}
+[0.600567] (-) TimerEvent: {}
+[0.700993] (-) TimerEvent: {}
+[0.801579] (-) TimerEvent: {}
+[0.902029] (-) TimerEvent: {}
+[1.002414] (-) TimerEvent: {}
+[1.085139] (robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_description', 'build', '--build-base', '/home/ros2_ws/build/robot_description/build', 'install', '--record', '/home/ros2_ws/build/robot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2_ws/src/robot_description', 'env': {'GZ_SIM_RESOURCE_PATH': '/home/ros2_ws/install/robot_description/share/robot_description', 'HOSTNAME': 'math', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros2_ws', 'OLDPWD': '/home/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/path/to/robot_description/meshes:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-ros2_ws', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ros2_ws/install/robot_description:/opt/ros/humble', 'PWD': '/home/ros2_ws/build/robot_description', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/home/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/home/ros2_ws/install/test_urdf_tool/lib/python3.10/site-packages:/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TZ': 'America/Sao_Paulo', 'COLCON': '1'}, 'shell': False}
+[1.102517] (-) TimerEvent: {}
+[1.202859] (-) TimerEvent: {}
+[1.303167] (-) TimerEvent: {}
+[1.384042] (robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.385175] (robot_description) StdoutLine: {'line': b'creating ../../build/robot_description/robot_description.egg-info\n'}
+[1.385547] (robot_description) StdoutLine: {'line': b'writing ../../build/robot_description/robot_description.egg-info/PKG-INFO\n'}
+[1.386010] (robot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt\n'}
+[1.386270] (robot_description) StdoutLine: {'line': b'writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt\n'}
+[1.386520] (robot_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt\n'}
+[1.386688] (robot_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt\n'}
+[1.386875] (robot_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[1.389638] (robot_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[1.391083] (robot_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[1.391383] (robot_description) StdoutLine: {'line': b'running build\n'}
+[1.391610] (robot_description) StdoutLine: {'line': b'running build_py\n'}
+[1.391860] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/build/robot_description/build\n'}
+[1.392086] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/build/robot_description/build/lib\n'}
+[1.392258] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/build/robot_description/build/lib/robot_description\n'}
+[1.392468] (robot_description) StdoutLine: {'line': b'copying robot_description/__init__.py -> /home/ros2_ws/build/robot_description/build/lib/robot_description\n'}
+[1.392638] (robot_description) StdoutLine: {'line': b'running install\n'}
+[1.393054] (robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.394250] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot_description\n'}
+[1.394554] (robot_description) StdoutLine: {'line': b'copying /home/ros2_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot_description\n'}
+[1.395220] (robot_description) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot_description/__init__.py to __init__.cpython-310.pyc\n'}
+[1.395542] (robot_description) StdoutLine: {'line': b'running install_data\n'}
+[1.395808] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/ament_index\n'}
+[1.396029] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/ament_index/resource_index\n'}
+[1.396135] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/ament_index/resource_index/packages\n'}
+[1.396257] (robot_description) StdoutLine: {'line': b'copying resource/robot_description -> /home/ros2_ws/install/robot_description/share/ament_index/resource_index/packages\n'}
+[1.396444] (robot_description) StdoutLine: {'line': b'copying package.xml -> /home/ros2_ws/install/robot_description/share/robot_description\n'}
+[1.396548] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/robot_description/launch\n'}
+[1.396653] (robot_description) StdoutLine: {'line': b'copying launch/robot.display.launch.py -> /home/ros2_ws/install/robot_description/share/robot_description/launch\n'}
+[1.396816] (robot_description) StdoutLine: {'line': b'copying launch/robot.gazebo.launch.py -> /home/ros2_ws/install/robot_description/share/robot_description/launch\n'}
+[1.397056] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/robot_description/xacro\n'}
+[1.397208] (robot_description) StdoutLine: {'line': b'copying xacro/base.urdf.xacro -> /home/ros2_ws/install/robot_description/share/robot_description/xacro\n'}
+[1.397441] (robot_description) StdoutLine: {'line': b'copying xacro/platform.urdf.xacro -> /home/ros2_ws/install/robot_description/share/robot_description/xacro\n'}
+[1.397597] (robot_description) StdoutLine: {'line': b'copying xacro/robot.urdf.xacro -> /home/ros2_ws/install/robot_description/share/robot_description/xacro\n'}
+[1.397736] (robot_description) StdoutLine: {'line': b'copying xacro/end_effector.urdf.xacro -> /home/ros2_ws/install/robot_description/share/robot_description/xacro\n'}
+[1.397831] (robot_description) StdoutLine: {'line': b'copying xacro/manipulator.urdf.xacro -> /home/ros2_ws/install/robot_description/share/robot_description/xacro\n'}
+[1.397924] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/robot_description/rviz\n'}
+[1.398068] (robot_description) StdoutLine: {'line': b'copying rviz/robot.rviz -> /home/ros2_ws/install/robot_description/share/robot_description/rviz\n'}
+[1.398170] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/robot_description/meshes\n'}
+[1.398264] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/robot_description/meshes/collision\n'}
+[1.398368] (robot_description) StdoutLine: {'line': b'copying meshes/collision/base_link.STL -> /home/ros2_ws/install/robot_description/share/robot_description/meshes/collision\n'}
+[1.399233] (robot_description) StdoutLine: {'line': b'copying meshes/collision/end_effector.STL -> /home/ros2_ws/install/robot_description/share/robot_description/meshes/collision\n'}
+[1.401593] (robot_description) StdoutLine: {'line': b'copying meshes/collision/plat_link.STL -> /home/ros2_ws/install/robot_description/share/robot_description/meshes/collision\n'}
+[1.403255] (-) TimerEvent: {}
+[1.407956] (robot_description) StdoutLine: {'line': b'copying meshes/collision/manip_link.STL -> /home/ros2_ws/install/robot_description/share/robot_description/meshes/collision\n'}
+[1.411084] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/robot_description/meshes/visual\n'}
+[1.411329] (robot_description) StdoutLine: {'line': b'copying meshes/visual/base_link.STL -> /home/ros2_ws/install/robot_description/share/robot_description/meshes/visual\n'}
+[1.412025] (robot_description) StdoutLine: {'line': b'copying meshes/visual/end_effector.STL -> /home/ros2_ws/install/robot_description/share/robot_description/meshes/visual\n'}
+[1.414238] (robot_description) StdoutLine: {'line': b'copying meshes/visual/plat_link.STL -> /home/ros2_ws/install/robot_description/share/robot_description/meshes/visual\n'}
+[1.422688] (robot_description) StdoutLine: {'line': b'copying meshes/visual/manip_link.STL -> /home/ros2_ws/install/robot_description/share/robot_description/meshes/visual\n'}
+[1.427120] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/robot_description/config\n'}
+[1.427424] (robot_description) StdoutLine: {'line': b'creating /home/ros2_ws/install/robot_description/share/robot_description/worlds\n'}
+[1.427608] (robot_description) StdoutLine: {'line': b'copying worlds/world.sdf -> /home/ros2_ws/install/robot_description/share/robot_description/worlds\n'}
+[1.427738] (robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.431123] (robot_description) StdoutLine: {'line': b'Copying ../../build/robot_description/robot_description.egg-info to /home/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info\n'}
+[1.432456] (robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.474293] (robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/ros2_ws/build/robot_description/install.log'\n"}
+[1.503411] (-) TimerEvent: {}
+[1.516089] (robot_description) CommandEnded: {'returncode': 0}
+[1.536612] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[1.538818] (moveit_config) JobStarted: {'identifier': 'moveit_config'}
+[1.549684] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'cmake'}
+[1.550857] (moveit_config) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/src/moveit_config', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/moveit_config'], 'cwd': '/home/ros2_ws/build/moveit_config', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/home/ros2_ws/install/robot_description/share/robot_description'), ('HOSTNAME', 'math'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/path/to/robot_description/meshes:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/moveit_config'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/home/ros2_ws/install/test_urdf_tool/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/opt/ros/humble')]), 'shell': False}
+[1.574215] (moveit_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.603531] (-) TimerEvent: {}
+[1.703952] (-) TimerEvent: {}
+[1.804390] (-) TimerEvent: {}
+[1.905120] (-) TimerEvent: {}
+[1.950621] (moveit_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.955432] (moveit_config) StdoutLine: {'line': b'-- Generating done\n'}
+[1.957533] (moveit_config) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/moveit_config\n'}
+[1.963094] (moveit_config) CommandEnded: {'returncode': 0}
+[1.964091] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'build'}
+[1.965491] (moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/moveit_config', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/moveit_config', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/home/ros2_ws/install/robot_description/share/robot_description'), ('HOSTNAME', 'math'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/path/to/robot_description/meshes:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/moveit_config'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/home/ros2_ws/install/test_urdf_tool/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/opt/ros/humble')]), 'shell': False}
+[2.005179] (-) TimerEvent: {}
+[2.027544] (moveit_config) CommandEnded: {'returncode': 0}
+[2.058363] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'install'}
+[2.069959] (moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/moveit_config'], 'cwd': '/home/ros2_ws/build/moveit_config', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/home/ros2_ws/install/robot_description/share/robot_description'), ('HOSTNAME', 'math'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/path/to/robot_description/meshes:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/moveit_config'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/home/ros2_ws/install/test_urdf_tool/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/opt/ros/humble')]), 'shell': False}
+[2.080228] (moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.080517] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_config\n'}
+[2.080735] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_config\n'}
+[2.080986] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/environment/ament_prefix_path.sh\n'}
+[2.081187] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/environment/ament_prefix_path.dsv\n'}
+[2.081406] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/environment/path.sh\n'}
+[2.081592] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/environment/path.dsv\n'}
+[2.081799] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/local_setup.bash\n'}
+[2.081969] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/local_setup.sh\n'}
+[2.082130] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/local_setup.zsh\n'}
+[2.082288] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/local_setup.dsv\n'}
+[2.082476] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/package.dsv\n'}
+[2.082702] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/ament_index/resource_index/packages/moveit_config\n'}
+[2.082894] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/cmake/moveit_configConfig.cmake\n'}
+[2.083024] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/cmake/moveit_configConfig-version.cmake\n'}
+[2.083249] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/package.xml\n'}
+[2.083462] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/launch\n'}
+[2.083642] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/moveit_rviz.launch.py\n'}
+[2.083776] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[2.083902] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/spawn_controllers.launch.py\n'}
+[2.084048] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/rsp.launch.py\n'}
+[2.084173] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/warehouse_db.launch.py\n'}
+[2.084316] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/demo.launch.py\n'}
+[2.084459] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/move_group.launch.py\n'}
+[2.084911] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config\n'}
+[2.085214] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/joint_limits.yaml\n'}
+[2.085424] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/ros2_controllers.yaml\n'}
+[2.085628] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/robot_description.urdf.xacro\n'}
+[2.085800] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/moveit.rviz\n'}
+[2.085929] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/initial_positions.yaml\n'}
+[2.086318] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/robot_description.srdf\n'}
+[2.086545] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[2.086733] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/moveit_controllers.yaml\n'}
+[2.086932] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/robot_description.ros2_control.xacro\n'}
+[2.087135] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/kinematics.yaml\n'}
+[2.087398] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/.setup_assistant\n'}
+[2.090431] (moveit_config) CommandEnded: {'returncode': 0}
+[2.105328] (-) TimerEvent: {}
+[2.130198] (moveit_config) JobEnded: {'identifier': 'moveit_config', 'rc': 0}
+[2.131007] (-) EventReactorShutdown: {}

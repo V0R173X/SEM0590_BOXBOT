@@ -1,0 +1,67 @@
+(2024-12-14T23:25:26.160161247) (2024-12-14T23:25:26.160168026) [Msg] Ignition Gazebo Server v6.16.0
+(2024-12-14T23:25:26.161608996) (2024-12-14T23:25:26.161615643) [Msg] Loading SDF world file[/home/ros2_ws/install/robot_description/share/robot_description/worlds/world.sdf].
+(2024-12-14T23:25:26.249455060) (2024-12-14T23:25:26.249478309) [Msg] Serving entity system service on [/entity/system/add]
+(2024-12-14T23:25:26.250285057) (2024-12-14T23:25:26.250303849) [Msg] Loaded level [3]
+(2024-12-14T23:25:26.250375904) (2024-12-14T23:25:26.250388832) [Msg] No systems loaded from SDF, loading defaults
+(2024-12-14T23:25:26.250724606) (2024-12-14T23:25:26.250742930) [Dbg] [ServerConfig.cc:1043] Loaded (3) plugins from file [/home/ros2_ws/.ignition/gazebo/6/server.config]
+(2024-12-14T23:25:26.364323896) (2024-12-14T23:25:26.364358341) [Dbg] [Physics.cc:804] Loaded [ignition::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/ign-physics-5/engine-plugins/libignition-physics-dartsim-plugin.so]
+(2024-12-14T23:25:26.364544580) (2024-12-14T23:25:26.364564962) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2024-12-14T23:25:26.449397243) (2024-12-14T23:25:26.449425310) [Msg] Create service on [/world/default/create]
+(2024-12-14T23:25:26.449740623) (2024-12-14T23:25:26.449762698) [Msg] Remove service on [/world/default/remove]
+(2024-12-14T23:25:26.450041043) (2024-12-14T23:25:26.450062262) [Msg] Pose service on [/world/default/set_pose]
+(2024-12-14T23:25:26.450291296) (2024-12-14T23:25:26.450312291) [Msg] Pose service on [/world/default/set_pose_vector]
+(2024-12-14T23:25:26.450701949) (2024-12-14T23:25:26.450722890) [Msg] Light configuration service on [/world/default/light_config]
+(2024-12-14T23:25:26.451188283) (2024-12-14T23:25:26.451209723) [Msg] Physics service on [/world/default/set_physics]
+(2024-12-14T23:25:26.451491775) (2024-12-14T23:25:26.451512295) [Msg] SphericalCoordinates service on [/world/default/set_spherical_coordinates]
+(2024-12-14T23:25:26.451678568) (2024-12-14T23:25:26.451698495) [Msg] Enable collision service on [/world/default/enable_collision]
+(2024-12-14T23:25:26.451864779) (2024-12-14T23:25:26.451885268) [Msg] Disable collision service on [/world/default/disable_collision]
+(2024-12-14T23:25:26.452311675) (2024-12-14T23:25:26.452332992) [Msg] Material service on [/world/default/visual_config]
+(2024-12-14T23:25:26.452589448) (2024-12-14T23:25:26.452610304) [Msg] Material service on [/world/default/wheel_slip]
+(2024-12-14T23:25:26.452716854) (2024-12-14T23:25:26.452735904) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2024-12-14T23:25:26.457671557) (2024-12-14T23:25:26.457699817) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2024-12-14T23:25:26.458643528) (2024-12-14T23:25:26.458661217) [Msg] Serving world controls on [/world/default/control], [/world/default/control/state] and [/world/default/playback/control]
+(2024-12-14T23:25:26.458969039) (2024-12-14T23:25:26.458989748) [Msg] Serving GUI information on [/world/default/gui/info]
+(2024-12-14T23:25:26.459088140) (2024-12-14T23:25:26.459107571) [Msg] World [default] initialized with [default_physics] physics profile.
+(2024-12-14T23:25:26.459573607) (2024-12-14T23:25:26.459595630) [Msg] Serving world SDF generation service on [/world/default/generate_world_sdf]
+(2024-12-14T23:25:26.459947337) (2024-12-14T23:25:26.459968623) [Msg] Serving world names on [/gazebo/worlds]
+(2024-12-14T23:25:26.460251957) (2024-12-14T23:25:26.460273039) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2024-12-14T23:25:26.460462537) (2024-12-14T23:25:26.460481529) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2024-12-14T23:25:26.460634852) (2024-12-14T23:25:26.460647922) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2024-12-14T23:25:26.461079562) (2024-12-14T23:25:26.461099361) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2024-12-14T23:25:26.461500792) (2024-12-14T23:25:26.461519988) [Msg] Server control service on [/server_control].
+(2024-12-14T23:25:28.59690761) (2024-12-14T23:25:28.59715149) [Msg] Found no publishers on /stats, adding root stats topic
+(2024-12-14T23:25:28.60034523) (2024-12-14T23:25:28.60051623) [Msg] Found no publishers on /clock, adding root clock topic
+(2024-12-14T23:25:28.60359600) (2024-12-14T23:25:28.60376497) [Dbg] [SimulationRunner.cc:496] Creating PostUpdate worker threads: 2
+(2024-12-14T23:25:28.60440380) (2024-12-14T23:25:28.60454973) [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (0)
+(2024-12-14T23:25:28.296211064) (2024-12-14T23:25:28.296354188) [Dbg] [UserCommands.cc:1303] Created entity [4] named [robot]
+(2024-12-14T23:25:28.347409765) (2024-12-14T23:25:28.347495069) [Err] [SystemPaths.cc:378] Unable to find file with URI [model://robot_description/meshes/visual/base_link.STL]
+(2024-12-14T23:25:28.347879493) (2024-12-14T23:25:28.347941556) [Err] [SystemPaths.cc:473] Could not resolve file [model://robot_description/meshes/visual/base_link.STL]
+(2024-12-14T23:25:28.348224687) (2024-12-14T23:25:28.348287528) [Err] [MeshManager.cc:173] Unable to find file[model://robot_description/meshes/visual/base_link.STL]
+(2024-12-14T23:25:28.348511964) (2024-12-14T23:25:28.348573073) [Wrn] [Physics.cc:1235] Failed to load mesh from [model://robot_description/meshes/visual/base_link.STL].
+(2024-12-14T23:25:28.349382478) (2024-12-14T23:25:28.349448940) [Err] [SystemPaths.cc:378] Unable to find file with URI [model://robot_description/meshes/visual/plat_link.STL]
+(2024-12-14T23:25:28.349731267) (2024-12-14T23:25:28.349794261) [Err] [SystemPaths.cc:473] Could not resolve file [model://robot_description/meshes/visual/plat_link.STL]
+(2024-12-14T23:25:28.350053332) (2024-12-14T23:25:28.350115222) [Err] [MeshManager.cc:173] Unable to find file[model://robot_description/meshes/visual/plat_link.STL]
+(2024-12-14T23:25:28.350338152) (2024-12-14T23:25:28.350402310) [Wrn] [Physics.cc:1235] Failed to load mesh from [model://robot_description/meshes/visual/plat_link.STL].
+(2024-12-14T23:25:28.351072419) (2024-12-14T23:25:28.351137523) [Err] [SystemPaths.cc:378] Unable to find file with URI [model://robot_description/meshes/visual/manip_link.STL]
+(2024-12-14T23:25:28.351410593) (2024-12-14T23:25:28.351467943) [Err] [SystemPaths.cc:473] Could not resolve file [model://robot_description/meshes/visual/manip_link.STL]
+(2024-12-14T23:25:28.351720705) (2024-12-14T23:25:28.351778308) [Err] [MeshManager.cc:173] Unable to find file[model://robot_description/meshes/visual/manip_link.STL]
+(2024-12-14T23:25:28.352187924) (2024-12-14T23:25:28.352246394) [Wrn] [Physics.cc:1235] Failed to load mesh from [model://robot_description/meshes/visual/manip_link.STL].
+(2024-12-14T23:25:28.352995017) (2024-12-14T23:25:28.353052179) [Err] [SystemPaths.cc:378] Unable to find file with URI [model://robot_description/meshes/visual/end_effector.STL]
+(2024-12-14T23:25:28.353292219) (2024-12-14T23:25:28.353351584) [Err] [SystemPaths.cc:473] Could not resolve file [model://robot_description/meshes/visual/end_effector.STL]
+(2024-12-14T23:25:28.353587910) (2024-12-14T23:25:28.353642337) [Err] [MeshManager.cc:173] Unable to find file[model://robot_description/meshes/visual/end_effector.STL]
+(2024-12-14T23:25:28.353848136) (2024-12-14T23:25:28.353909932) [Wrn] [Physics.cc:1235] Failed to load mesh from [model://robot_description/meshes/visual/end_effector.STL].
+(2024-12-14T23:25:28.362854684) (2024-12-14T23:25:28.362931645) [Msg] Serving scene information on [/world/default/scene/info]
+(2024-12-14T23:25:28.363521614) (2024-12-14T23:25:28.363577086) [Msg] Serving graph information on [/world/default/scene/graph]
+(2024-12-14T23:25:28.364634019) (2024-12-14T23:25:28.364689569) [Msg] Serving full state on [/world/default/state]
+(2024-12-14T23:25:28.365278750) (2024-12-14T23:25:28.365335848) [Msg] Serving full state (async) on [/world/default/state_async]
+(2024-12-14T23:25:28.367633898) (2024-12-14T23:25:28.367699820) [Msg] Publishing scene information on [/world/default/scene/info]
+(2024-12-14T23:25:28.368337144) (2024-12-14T23:25:28.368441999) [Msg] Publishing entity deletions on [/world/default/scene/deletion]
+(2024-12-14T23:25:28.368879567) (2024-12-14T23:25:28.368973580) [Msg] Publishing state changes on [/world/default/state]
+(2024-12-14T23:25:28.369443077) (2024-12-14T23:25:28.369500488) [Msg] Publishing pose messages on [/world/default/pose/info]
+(2024-12-14T23:25:28.371570383) (2024-12-14T23:25:28.371632209) [Msg] Publishing dynamic pose messages on [/world/default/dynamic_pose/info]
+(2024-12-14T23:25:28.372686906) (2024-12-14T23:25:28.372753692) [Dbg] [EntityComponentManager.cc:1623] Updated state thread iterators: 8 threads processing around 3 entities each.
+(2024-12-14T23:25:28.376480784) (2024-12-14T23:25:28.376556824) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v125WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2024-12-14T23:27:21.806376695) (2024-12-14T23:27:21.806405627) [Dbg] [SignalHandler.cc:141] Received signal[2].
+(2024-12-14T23:27:21.806490989) (2024-12-14T23:27:21.806512115) [Dbg] [ServerPrivate.cc:110] Server received signal[2]
+(2024-12-14T23:27:21.807343569) (2024-12-14T23:27:21.807365952) [Dbg] [gz.cc:410] Shutting down ign-gazebo-server
+(2024-12-14T23:27:21.813022175) (2024-12-14T23:27:21.813052477) [Dbg] [SimulationRunner.cc:523] Exiting postupdate worker thread (0)

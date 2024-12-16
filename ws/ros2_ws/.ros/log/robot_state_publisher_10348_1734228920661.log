@@ -1,0 +1,6 @@
+[INFO] [1734228920.935223914] [robot_state_publisher]: got segment base_footprint
+[INFO] [1734228920.940145392] [robot_state_publisher]: got segment base_link
+[INFO] [1734228920.943042454] [robot_state_publisher]: got segment end_effector
+[INFO] [1734228920.945881832] [robot_state_publisher]: got segment manip_link
+[INFO] [1734228920.952846577] [robot_state_publisher]: got segment plat_link
+[INFO] [1734228941.956961674] [rclcpp]: signal_handler(signum=2)

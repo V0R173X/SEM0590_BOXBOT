@@ -1,0 +1,11 @@
+1734212045.0393376 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-18-34-05-038645-math-412
+1734212045.0394621 [INFO] [launch]: Default logging verbosity is set to INFO
+1734212045.1069741 [INFO] [xacro-1]: process started with pid [413]
+1734212045.1072137 [INFO] [robot_state_publisher-2]: process started with pid [416]
+1734212045.1073482 [INFO] [joint_state_publisher_gui-3]: process started with pid [418]
+1734212045.1074564 [INFO] [rviz2-4]: process started with pid [420]
+1734212045.1912241 [INFO] [xacro-1]: process has finished cleanly [pid 413]
+1734212045.3904798 [ERROR] [robot_state_publisher-2]: process has died [pid 416, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher --params-file /tmp/launch_params_q4vimla6'].
+1734212048.1713905 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734212048.1806772 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 418, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734212048.3421700 [INFO] [rviz2-4]: process has finished cleanly [pid 420]

@@ -1,0 +1,2 @@
+Invoking command in '/home/ros2_ws/build/moveit_config': /usr/bin/cmake /home/ros2_ws/src/moveit_config -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/moveit_config
+Invoked command in '/home/ros2_ws/build/moveit_config' returned '1': /usr/bin/cmake /home/ros2_ws/src/moveit_config -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/moveit_config

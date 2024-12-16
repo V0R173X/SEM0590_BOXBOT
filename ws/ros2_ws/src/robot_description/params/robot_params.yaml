@@ -1,0 +1,40 @@
+base:  # Configurações do link base
+  inertial:  # Propriedades físicas e de inércia do link base
+    origin:  # Posição e orientação do centro de massa
+      xyz: "-0.00387269 0.00879907 0.10229054"  # Coordenadas em metros (x, y, z)
+      rpy: "0 0 0"  # Orientação em radianos (roll, pitch, yaw)
+    mass: 2.5522773  # Massa do link em quilogramas
+    ixx: 0.018085  # Momento de inércia em torno do eixo X
+    ixy: -0.000149  # Momento de inércia cruzado (XY)
+    ixz: 0.000551  # Momento de inércia cruzado (XZ)
+    iyy: 0.021187  # Momento de inércia em torno do eixo Y
+    iyz: -0.000397  # Momento de inércia cruzado (YZ)
+    izz: 0.023708  # Momento de inércia em torno do eixo Z
+  visual:  # Configuração da representação visual do link base
+    mesh: "package://robot_description/meshes/visual/base_link.STL"  # Caminho para o arquivo STL que define o modelo visual
+  collision:  # Configuração para a geometria de colisão
+    mesh: "package://robot_description/meshes/visual/base_link.STL"  # Caminho para o arquivo STL usado para detectar colisões
+
+manipulator:  # Configurações do link do manipulador
+  inertial:  # Propriedades físicas e de inércia do manipulador
+    origin:  # Posição e orientação do centro de massa
+      xyz: "0.00003 0.0316 0.1689"  # Coordenadas em metros (x, y, z)
+      rpy: "0 0 0"  # Orientação em radianos (roll, pitch, yaw)
+    mass: 0.0857  # Massa do link em quilogramas
+    ixx: 0.0001  # Momento de inércia em torno do eixo X
+    ixy: -0.000005  # Momento de inércia cruzado (XY)
+    ixz: -0.000003  # Momento de inércia cruzado (XZ)
+    iyy: 0.000022  # Momento de inércia em torno do eixo Y
+    iyz: 0.000007  # Momento de inércia cruzado (YZ)
+    izz: 0.000114  # Momento de inércia em torno do eixo Z
+  visual:  # Configuração da representação visual do manipulador
+    mesh: "package://robot_description/meshes/visual/manip_link.STL"  # Caminho para o arquivo STL que define o modelo visual
+  collision:  # Configuração para a geometria de colisão
+    mesh: "package://robot_description/meshes/visual/manip_link.STL"  # Caminho para o arquivo STL usado para detectar colisões
+
+end_effector:  # Configurações do link do end effector
+  visual:  # Configuração da representação visual do end effector
+    mesh: "package://robot_description/meshes/visual/end_effector.STL"  # Caminho para o arquivo STL que define o modelo visual
+  collision:  # Configuração para a geometria de colisão
+    mesh: "package://robot_description/meshes/visual/end_effector.STL"  # Caminho para o arquivo STL usado para detectar colisões
+

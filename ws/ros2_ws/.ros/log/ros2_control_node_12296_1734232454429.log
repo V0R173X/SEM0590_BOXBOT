@@ -1,0 +1,28 @@
+[WARN] [1734232454.468791362] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1734232454.469279603] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1734232454.470414638] [resource_manager]: Initialize hardware 'FakeSystem' 
+[WARN] [1734232454.470524335] [mock_generic_system]: Parsing of optional initial interface values failed or uses a deprecated format. Add initial values for every state interface in the ros2_control.xacro. For example: 
+<state_interface name="velocity"> 
+  <param name="initial_value">0.0</param> 
+</state_interface>
+[INFO] [1734232454.470555742] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1734232454.470673593] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1734232454.470697202] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1734232454.470711923] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1734232454.470726043] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[WARN] [1734232454.481834294] [controller_manager]: Unable to lock the memory : 'No proper privileges to lock the memory!'
+[INFO] [1734232454.481893892] [controller_manager]: update rate is 100 Hz
+[INFO] [1734232454.481914253] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1734232454.482216214] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1734232456.054403386] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1734232456.113386847] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1734232456.113611707] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1734232458.118099780] [controller_manager]: Loading controller 'arm_controller'
+[WARN] [1734232458.148821361] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1734232458.156118410] [controller_manager]: Configuring controller 'arm_controller'
+[INFO] [1734232458.156325728] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1734232458.156352817] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1734232458.156378606] [arm_controller]: Using 'splines' interpolation method.
+[INFO] [1734232458.158168652] [arm_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1734232458.161808400] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1734232567.535968740] [rclcpp]: signal_handler(signum=2)

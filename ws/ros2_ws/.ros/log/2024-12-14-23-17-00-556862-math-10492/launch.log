@@ -1,0 +1,13 @@
+1734229020.5578058 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-23-17-00-556862-math-10492
+1734229020.5579729 [INFO] [launch]: Default logging verbosity is set to INFO
+1734229021.3062541 [INFO] [robot_state_publisher-1]: process started with pid [10494]
+1734229021.3068964 [INFO] [ruby $(which ign) gazebo-2]: process started with pid [10496]
+1734229021.3071070 [INFO] [create-3]: process started with pid [10498]
+1734229021.3079858 [INFO] [parameter_bridge-4]: process started with pid [10501]
+1734229022.4491916 [INFO] [create-3]: process has finished cleanly [pid 10498]
+1734229040.4914775 [INFO] [ruby $(which ign) gazebo-2]: process has finished cleanly [pid 10496]
+1734229040.4924722 [INFO] [launch]: process[ruby $(which ign) gazebo-2] was required: shutting down launched system
+1734229040.4971924 [INFO] [parameter_bridge-4]: sending signal 'SIGINT' to process[parameter_bridge-4]
+1734229040.4993024 [INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+1734229040.6164079 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 10501]
+1734229040.6193287 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 10494]

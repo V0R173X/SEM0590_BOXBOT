@@ -1,0 +1,15 @@
+1734232637.9673901 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-00-17-17-963573-math-12457
+1734232637.9676347 [INFO] [launch]: Default logging verbosity is set to INFO
+1734232638.2561650 [INFO] [rviz2-1]: process started with pid [12458]
+1734232638.8824291 [rviz2-1] [INFO] [1734232638.881986572] [rviz2]: Stereo is NOT SUPPORTED
+1734232638.8826201 [rviz2-1] [INFO] [1734232638.882087377] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1734232638.9161322 [rviz2-1] [INFO] [1734232638.915341518] [rviz2]: Stereo is NOT SUPPORTED
+1734232639.0337148 [rviz2-1] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1734232639.0338933 [rviz2-1]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1734232642.0584440 [rviz2-1] [ERROR] [1734232642.058181908] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1734232642.0700538 [rviz2-1] [INFO] [1734232642.069795978] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1734232652.1575782 [rviz2-1] [ERROR] [1734232652.157290423] [rviz]: Could not find parameter robot_description and did not receive robot_description via std_msgs::msg::String subscription within 10.000000 seconds.
+1734232652.3155229 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734232652.3175581 [rviz2-1] [INFO] [1734232652.315280745] [rclcpp]: signal_handler(signum=2)
+1734232653.7152405 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1734232653.7278483 [ERROR] [rviz2-1]: process has died [pid 12458, exit code -2, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ros2_ws/install/moveit_config/share/moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_3j45whpw --params-file /tmp/launch_params__qjkour8'].

@@ -1,0 +1,13 @@
+1734212226.7008109 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-18-37-06-700188-math-1274
+1734212226.7009590 [INFO] [launch]: Default logging verbosity is set to INFO
+1734212227.3406646 [INFO] [robot_state_publisher-1]: process started with pid [1275]
+1734212227.3409624 [INFO] [joint_state_publisher_gui-2]: process started with pid [1277]
+1734212227.3413084 [INFO] [rviz2-3]: process started with pid [1279]
+1734212227.3414509 [INFO] [gzserver-4]: process started with pid [1281]
+1734212227.3415678 [INFO] [gzclient-5]: process started with pid [1283]
+1734212353.8295054 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734212353.8406281 [ERROR] [joint_state_publisher_gui-2]: process has died [pid 1277, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734212353.9402030 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 1275]
+1734212354.0122130 [INFO] [gzserver-4]: process has finished cleanly [pid 1281]
+1734212354.0467689 [INFO] [gzclient-5]: process has finished cleanly [pid 1283]
+1734212354.0500212 [INFO] [rviz2-3]: process has finished cleanly [pid 1279]

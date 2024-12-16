@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="manipulator">
+
+  <!-- Definição do link do platform -->
+  <xacro:macro name="platform" params="">
+
+    <link name="plat_link">
+      <inertial>
+        <origin xyz="0.000422512605791112 -0.000356905697544305 0.0765131639427879" rpy="0 0 0" />
+        <mass value="0.177658488678687" />
+        <inertia 
+          ixx="0.000269465218245921" 
+          ixy="1.81925456884816E-08" 
+          ixz="1.38491877455904E-09" 
+          iyy="0.000268630421409206" 
+          iyz="-6.36444714156945E-08" 
+          izz="0.0001248609210971" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file://$(find robot_description)/meshes/visual/plat_link.STL" />
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file://$(find robot_description)/meshes/visual/plat_link.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="plat_joint" type="revolute">
+      <origin xyz="0.00022975 -0.00011326 0.22896" rpy="0 0 3.1416" />
+      <parent link="base_link" />
+      <child link="plat_link" />
+      <axis xyz="-0.0009117 0.00044946 -1" />
+      <limit lower="2.8" upper="-2.8" effort="10" velocity="1" />
+    </joint>
+
+  </xacro:macro>
+
+</robot>

@@ -1,0 +1,8 @@
+1734227992.1010010 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-22-59-52-099414-math-9615
+1734227992.1012740 [INFO] [launch]: Default logging verbosity is set to INFO
+1734227992.5281124 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro calibration_file:=/home/ros2_ws/install/robot_description/share/robot_description/config/calibration.yaml
+Captured stderr output: error: Unknown substitution command [yaml-load /home/ros2_ws/src/robot_description/config/calibration.yaml]. Valid commands are ['find', 'env', 'optenv', 'dirname', 'arg'] 
+when evaluating expression 'limits.end_effector_joint.lower'
+when instantiating macro: end_effector (/home/ros2_ws/install/robot_description/share/robot_description/xacro/./end_effector.urdf.xacro)
+in file: /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+

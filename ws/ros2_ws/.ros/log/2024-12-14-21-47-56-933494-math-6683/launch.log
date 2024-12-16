@@ -1,0 +1,11 @@
+1734223676.9355893 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-21-47-56-933494-math-6683
+1734223676.9358859 [INFO] [launch]: Default logging verbosity is set to INFO
+1734223677.2854018 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+Captured stderr output: XML parsing error: mismatched tag: line 41, column 2
+when processing file: /home/ros2_ws/install/robot_description/share/robot_description/xacro/base.urdf.xacro
+included from: /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+
+Check that:
+ - Your XML is well-formed
+ - You have the xacro xmlns declaration: xmlns:xacro="http://www.ros.org/wiki/xacro"
+

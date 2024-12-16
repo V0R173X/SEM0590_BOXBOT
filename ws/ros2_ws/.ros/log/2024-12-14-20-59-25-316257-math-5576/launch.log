@@ -1,0 +1,15 @@
+1734220765.3177092 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-20-59-25-316257-math-5576
+1734220765.3178501 [INFO] [launch]: Default logging verbosity is set to INFO
+1734220766.1641641 [INFO] [joint_state_publisher_gui-1]: process started with pid [5577]
+1734220766.1643882 [INFO] [robot_state_publisher-2]: process started with pid [5579]
+1734220766.1645279 [INFO] [rviz2-3]: process started with pid [5581]
+1734220766.1646602 [INFO] [gzserver-4]: process started with pid [5583]
+1734220766.1647940 [INFO] [gzclient-5]: process started with pid [5585]
+1734220766.9447112 [ERROR] [gzserver-4]: process has died [pid 5583, exit code 255, cmd 'gzserver --verbose -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+1734220771.1700492 [INFO] [spawn_entity.py-6]: process started with pid [5733]
+1734220772.3650665 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734220772.3746805 [ERROR] [spawn_entity.py-6]: process has died [pid 5733, exit code -2, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -topic robot_description -entity my_robot -x 0 -y 0 -z 0.1 --ros-args'].
+1734220772.3757052 [ERROR] [joint_state_publisher_gui-1]: process has died [pid 5577, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui --params-file /tmp/launch_params_j31t7kdp'].
+1734220772.4773808 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 5579]
+1734220772.5474417 [INFO] [rviz2-3]: process has finished cleanly [pid 5581]
+1734220772.6445670 [INFO] [gzclient-5]: process has finished cleanly [pid 5585]

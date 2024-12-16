@@ -1,0 +1,5 @@
+1734211676.5083025 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-18-27-56-507646-math-270
+1734211676.5084176 [INFO] [launch]: Default logging verbosity is set to INFO
+1734211676.5470772 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - TypeError: Unexpected type for parameter value <launch_ros.actions.node.Node object at 0x7f2655b240d0>
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

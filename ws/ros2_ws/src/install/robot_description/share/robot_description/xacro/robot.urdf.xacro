@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_description">
+
+  <!-- Inclua os arquivos dependentes -->
+  <xacro:include filename="./base.urdf.xacro" />
+  <xacro:include filename="./manipulator.urdf.xacro" />
+  <xacro:include filename="./platform.urdf.xacro" />
+  <xacro:include filename="./end_effector.urdf.xacro" />
+
+  <!-- Instanciar as macros -->
+  <xacro:base />
+  <xacro:manipulator />
+  <xacro:platform />
+  <xacro:end_effector />
+
+</robot>

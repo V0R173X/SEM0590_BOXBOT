@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000469] (moveit_config) JobQueued: {'identifier': 'moveit_config', 'dependencies': OrderedDict([('robot_description', '/home/ros2_ws/install/robot_description')])}
+[0.000563] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.099260] (-) TimerEvent: {}
+[0.199517] (-) TimerEvent: {}
+[0.299801] (-) TimerEvent: {}
+[0.400073] (-) TimerEvent: {}
+[0.500356] (-) TimerEvent: {}
+[0.579711] (robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_description', 'build', '--build-base', '/home/ros2_ws/build/robot_description/build', 'install', '--record', '/home/ros2_ws/build/robot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2_ws/src/robot_description', 'env': {'HOSTNAME': 'alessioPC', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-ros2_ws', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ros2_ws/install/moveit_config:/home/ros2_ws/install/robot_description:/opt/ros/humble', 'PWD': '/home/ros2_ws/build/robot_description', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/home/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TZ': 'America/Sao_Paulo', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2_ws/install/moveit_config'}, 'shell': False}
+[0.600475] (-) TimerEvent: {}
+[0.700730] (-) TimerEvent: {}
+[0.797265] (robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.798009] (robot_description) StdoutLine: {'line': b'writing ../../build/robot_description/robot_description.egg-info/PKG-INFO\n'}
+[0.798421] (robot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt\n'}
+[0.798783] (robot_description) StdoutLine: {'line': b'writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt\n'}
+[0.799056] (robot_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt\n'}
+[0.799321] (robot_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt\n'}
+[0.800822] (-) TimerEvent: {}
+[0.801013] (robot_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[0.813393] (robot_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[0.813674] (robot_description) StdoutLine: {'line': b'running build\n'}
+[0.813770] (robot_description) StdoutLine: {'line': b'running build_py\n'}
+[0.813903] (robot_description) StdoutLine: {'line': b'running install\n'}
+[0.814148] (robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[0.815412] (robot_description) StdoutLine: {'line': b'running install_data\n'}
+[0.815872] (robot_description) StdoutLine: {'line': b'copying rviz/robot.rviz -> /home/ros2_ws/install/robot_description/share/robot_description/rviz\n'}
+[0.816361] (robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.818605] (robot_description) StdoutLine: {'line': b"removing '/home/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.818801] (robot_description) StdoutLine: {'line': b'Copying ../../build/robot_description/robot_description.egg-info to /home/ros2_ws/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info\n'}
+[0.823365] (robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[0.843401] (robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/ros2_ws/build/robot_description/install.log'\n"}
+[0.864413] (robot_description) CommandEnded: {'returncode': 0}
+[0.875068] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[0.876432] (moveit_config) JobStarted: {'identifier': 'moveit_config'}
+[0.882929] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'cmake'}
+[0.901037] (-) TimerEvent: {}
+[0.913870] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'build'}
+[0.916942] (moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/moveit_config', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/moveit_config', 'env': OrderedDict([('HOSTNAME', 'alessioPC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/moveit_config:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/moveit_config'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/moveit_config:/home/ros2_ws/install/robot_description:/opt/ros/humble')]), 'shell': False}
+[1.001225] (-) TimerEvent: {}
+[1.017212] (moveit_config) CommandEnded: {'returncode': 0}
+[1.045373] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'install'}
+[1.056531] (moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/moveit_config'], 'cwd': '/home/ros2_ws/build/moveit_config', 'env': OrderedDict([('HOSTNAME', 'alessioPC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/moveit_config:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/moveit_config'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ros2_ws/install/robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/moveit_config:/home/ros2_ws/install/robot_description:/opt/ros/humble')]), 'shell': False}
+[1.065784] (moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.066109] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_config\n'}
+[1.066270] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_config\n'}
+[1.066505] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/environment/ament_prefix_path.sh\n'}
+[1.066833] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/environment/ament_prefix_path.dsv\n'}
+[1.067010] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/environment/path.sh\n'}
+[1.067145] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/environment/path.dsv\n'}
+[1.067244] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/local_setup.bash\n'}
+[1.067381] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/local_setup.sh\n'}
+[1.067538] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/local_setup.zsh\n'}
+[1.067671] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/local_setup.dsv\n'}
+[1.067861] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/package.dsv\n'}
+[1.068023] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/ament_index/resource_index/packages/moveit_config\n'}
+[1.068153] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/cmake/moveit_configConfig.cmake\n'}
+[1.068276] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/cmake/moveit_configConfig-version.cmake\n'}
+[1.068415] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/package.xml\n'}
+[1.068552] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/launch\n'}
+[1.068688] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/spawn_controllers.launch.py\n'}
+[1.068824] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/warehouse_db.launch.py\n'}
+[1.068916] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/moveit_rviz.launch.py\n'}
+[1.069046] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[1.069162] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/rsp.launch.py\n'}
+[1.069266] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/move_group.launch.py\n'}
+[1.069362] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/launch/demo.launch.py\n'}
+[1.069489] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config\n'}
+[1.069650] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/robot_description.urdf.xacro\n'}
+[1.069787] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/robot_description.srdf\n'}
+[1.069909] (moveit_config) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/moveit_config/share/moveit_config/config/moveit.rviz\n'}
+[1.070044] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/kinematics.yaml\n'}
+[1.070135] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/ros2_controllers.yaml\n'}
+[1.070231] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/initial_positions.yaml\n'}
+[1.070322] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/robot_description.ros2_control.xacro\n'}
+[1.070410] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[1.070499] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/joint_limits.yaml\n'}
+[1.070588] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/config/moveit_controllers.yaml\n'}
+[1.070676] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/moveit_config/share/moveit_config/.setup_assistant\n'}
+[1.072795] (moveit_config) CommandEnded: {'returncode': 0}
+[1.101333] (-) TimerEvent: {}
+[1.112307] (moveit_config) JobEnded: {'identifier': 'moveit_config', 'rc': 0}
+[1.113104] (-) EventReactorShutdown: {}

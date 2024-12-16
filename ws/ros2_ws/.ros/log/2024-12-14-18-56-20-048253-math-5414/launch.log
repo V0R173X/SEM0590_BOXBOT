@@ -1,0 +1,14 @@
+1734213380.0489385 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-18-56-20-048253-math-5414
+1734213380.0490701 [INFO] [launch]: Default logging verbosity is set to INFO
+1734213380.7122314 [INFO] [joint_state_publisher_gui-1]: process started with pid [5415]
+1734213380.7125206 [INFO] [robot_state_publisher-2]: process started with pid [5417]
+1734213380.7126658 [INFO] [rviz2-3]: process started with pid [5419]
+1734213380.7127841 [INFO] [gzserver-4]: process started with pid [5421]
+1734213380.7128944 [INFO] [gzclient-5]: process started with pid [5423]
+1734213381.1590526 [ERROR] [gzserver-4]: process has died [pid 5421, exit code 255, cmd 'gzserver --verbose -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+1734213385.6846316 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734213385.6944594 [ERROR] [joint_state_publisher_gui-1]: process has died [pid 5415, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui --params-file /tmp/launch_params__4t9ljv6'].
+1734213385.7962859 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 5417]
+1734213385.8376880 [INFO] [rviz2-3]: process has finished cleanly [pid 5419]
+1734213385.8896797 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1734213385.9090371 [INFO] [gzclient-5]: process has finished cleanly [pid 5423]

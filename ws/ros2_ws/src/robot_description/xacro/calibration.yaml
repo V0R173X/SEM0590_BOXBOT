@@ -1,0 +1,11 @@
+limits:
+  end_effector_joint:
+    lower: 1.0
+    upper: -1.0
+    effort: 0.0
+    velocity: 0.0
+  plat_joint:
+    lower: -2.8
+    upper: 2.8
+    effort: 0.0
+    velocity: 0.0

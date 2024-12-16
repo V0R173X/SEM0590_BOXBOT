@@ -1,0 +1,19 @@
+1734232812.1459038 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-00-20-12-144642-math-12624
+1734232812.1461325 [INFO] [launch]: Default logging verbosity is set to INFO
+1734232812.4924669 [INFO] [rviz2-1]: process started with pid [12625]
+1734232812.8228538 [rviz2-1] [INFO] [1734232812.822225996] [rviz2]: Stereo is NOT SUPPORTED
+1734232812.8233204 [rviz2-1] [INFO] [1734232812.822384920] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1734232812.8655367 [rviz2-1] [INFO] [1734232812.865030146] [rviz2]: Stereo is NOT SUPPORTED
+1734232813.0321560 [rviz2-1] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1734232813.0324311 [rviz2-1]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1734232816.0745802 [rviz2-1] [ERROR] [1734232816.066958540] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1734232816.1580493 [rviz2-1] [INFO] [1734232816.157293273] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1734232826.2841477 [rviz2-1] [ERROR] [1734232826.283503911] [rviz]: Could not find parameter robot_description and did not receive robot_description via std_msgs::msg::String subscription within 10.000000 seconds.
+1734232833.3381784 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734232833.3401778 [rviz2-1] [INFO] [1734232833.337923305] [rclcpp]: signal_handler(signum=2)
+1734232836.4715021 [rviz2-1] Error:   Error document empty.
+1734232836.4724338 [rviz2-1]          at line 100 in ./urdf_parser/src/model.cpp
+1734232836.4729078 [rviz2-1] Failed to parse robot description using: urdf_xml_parser/URDFXMLParser
+1734232836.4733462 [rviz2-1] [INFO] [1734232836.470526431] [moveit_rdf_loader.rdf_loader]: Unable to parse URDF
+1734232836.4800954 [rviz2-1] [ERROR] [1734232836.479173055] [moveit_background_processing.background_processing]: Exception caught while processing action 'loadRobotModel': failed to create guard condition: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67
+1734232837.4058685 [ERROR] [rviz2-1]: process has died [pid 12625, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ros2_ws/install/moveit_config/share/moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_z3nsxh0z --params-file /tmp/launch_params_t6lsohth'].

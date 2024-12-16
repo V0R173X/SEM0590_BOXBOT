@@ -1,0 +1,201 @@
+1734230681.6728709 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-23-44-41-671577-math-11797
+1734230681.6731262 [INFO] [launch]: Default logging verbosity is set to INFO
+1734230681.8275416 [INFO] [moveit_setup_assistant-1]: process started with pid [11798]
+1734230695.7697411 [moveit_setup_assistant-1] [INFO] [1734230695.769158436] [moveit_setup_assistant.urdf]: Loaded robot_description robot model.
+1734230695.7704604 [moveit_setup_assistant-1] [INFO] [1734230695.769413672] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230695.7706852 [moveit_setup_assistant-1] [INFO] [1734230695.769438172] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230695.7708626 [moveit_setup_assistant-1] [WARN] [1734230695.769469649] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230698.3121839 [moveit_setup_assistant-1] [INFO] [1734230698.311633218] [moveit_setup_assistant.urdf]: Loaded robot_description robot model.
+1734230698.3127353 [moveit_setup_assistant-1] [INFO] [1734230698.311689934] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230698.3128822 [moveit_setup_assistant-1] [INFO] [1734230698.311702859] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230698.3130064 [moveit_setup_assistant-1] [WARN] [1734230698.311725597] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230698.7107177 [moveit_setup_assistant-1] [rviz_rendering:debug] Available Renderers(1): OpenGL Rendering Subsystem, at ./src/rviz_rendering/render_system.cpp:301
+1734230698.7108793 [moveit_setup_assistant-1] [rviz_rendering:info] Stereo is NOT SUPPORTED, at ./src/rviz_rendering/render_system.cpp:543
+1734230698.7109501 [moveit_setup_assistant-1] [rviz_rendering:info] OpenGl version: 4.6 (GLSL 4.6), at ./src/rviz_rendering/render_system.cpp:284
+1734230698.7110090 [moveit_setup_assistant-1] [rviz_rendering:info] Stereo is NOT SUPPORTED, at ./src/rviz_rendering/render_system.cpp:543
+1734230698.7110682 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/TF.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7111266 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_default_plugins/icons/classes/TF.svg]: Couldn't open file /opt/ros/humble/share/rviz_default_plugins/icons/classes/TF.svg, at ./src/rviz_common/load_resource.cpp:55
+1734230698.7112107 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/TF.png, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7112792 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/classes/Identity.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7113419 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_common/icons/classes/Identity.svg]: Couldn't open file /opt/ros/humble/share/rviz_common/icons/classes/Identity.svg, at ./src/rviz_common/load_resource.cpp:55
+1734230698.7114036 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/classes/Identity.png, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7114573 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_common/icons/classes/Identity.png]: Couldn't open file /opt/ros/humble/share/rviz_common/icons/classes/Identity.png, at ./src/rviz_common/load_resource.cpp:55
+1734230698.7114997 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/default_class_icon.png, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7115686 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/options.png, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7116160 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/ok.png, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7116730 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/warning.png, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7117312 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/error.png, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7117915 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/Orbit.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7118559 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_default_plugins/icons/classes/Orbit.svg]: Couldn't open file /opt/ros/humble/share/rviz_default_plugins/icons/classes/Orbit.svg, at ./src/rviz_common/load_resource.cpp:55
+1734230698.7119029 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/Orbit.png, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7119458 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_default_plugins/icons/classes/Orbit.png]: Couldn't open file /opt/ros/humble/share/rviz_default_plugins/icons/classes/Orbit.png, at ./src/rviz_common/load_resource.cpp:55
+1734230698.7119873 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/rotate.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7120304 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/cursor.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7120779 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/rotate_cam.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7121301 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/move2d.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7121894 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/move_z.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7122514 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/zoom.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7122989 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_common/icons/crosshair.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7123399 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/FocusCamera.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7123804 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/Interact.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230698.7159653 [moveit_setup_assistant-1] [INFO] [1734230698.715671337] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00129371 seconds
+1734230698.7161777 [moveit_setup_assistant-1] [INFO] [1734230698.715705378] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230698.7162795 [moveit_setup_assistant-1] [INFO] [1734230698.715713694] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230698.7163768 [moveit_setup_assistant-1] [WARN] [1734230698.715725343] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230699.3514104 [moveit_setup_assistant-1] [INFO] [1734230699.350994164] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00137053 seconds
+1734230699.3516881 [moveit_setup_assistant-1] [INFO] [1734230699.351025901] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230699.3519433 [moveit_setup_assistant-1] [INFO] [1734230699.351033981] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230699.3521686 [moveit_setup_assistant-1] [WARN] [1734230699.351046293] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230699.6406338 [moveit_setup_assistant-1] [INFO] [1734230699.640301177] [moveit_setup_assistant.Start Screen]: Loading Setup Assistant Complete
+1734230708.0888648 [moveit_setup_assistant-1] [INFO] [1734230708.088563582] [collision_updater]: -------------------------------------------------------------------------------
+1734230708.0890813 [moveit_setup_assistant-1] [INFO] [1734230708.088609519] [collision_updater]: Statistics:
+1734230708.0891862 [moveit_setup_assistant-1] [INFO] [1734230708.088620445] [collision_updater]: Total Links : 5
+1734230708.0892887 [moveit_setup_assistant-1] [INFO] [1734230708.088634213] [collision_updater]: Total possible collisions : 10.000000
+1734230708.0893726 [moveit_setup_assistant-1] [INFO] [1734230708.088640826] [collision_updater]: Always in collision : 0
+1734230708.0894542 [moveit_setup_assistant-1] [INFO] [1734230708.088646713] [collision_updater]: Never in collision : 3
+1734230708.0897923 [moveit_setup_assistant-1] [INFO] [1734230708.088652297] [collision_updater]: Default in collision : 0
+1734230708.0898936 [moveit_setup_assistant-1] [INFO] [1734230708.088658467] [collision_updater]: Adjacent links disabled : 3
+1734230708.0899768 [moveit_setup_assistant-1] [INFO] [1734230708.088664309] [collision_updater]: Sometimes in collision : 4
+1734230708.0900507 [moveit_setup_assistant-1] [INFO] [1734230708.088670232] [collision_updater]: TOTAL DISABLED : 6
+1734230708.0901313 [moveit_setup_assistant-1] [INFO] [1734230708.088710837] [moveit_setup_assistant.Self-Collisions]: Thread complete 6
+1734230733.6071186 [moveit_setup_assistant-1] [INFO] [1734230733.606781913] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230733.6074171 [moveit_setup_assistant-1] [INFO] [1734230733.606821989] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230733.6075811 [moveit_setup_assistant-1] [WARN] [1734230733.606844183] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230847.9391863 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_default_plugins/icons/classes/Interact.svg]: Couldn't open file /opt/ros/humble/share/rviz_default_plugins/icons/classes/Interact.svg, at ./src/rviz_common/load_resource.cpp:55
+1734230847.9394140 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/Interact.png, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9394979 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/Measure.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9395621 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/MoveCamera.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9396365 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_default_plugins/icons/classes/MoveCamera.svg]: Couldn't open file /opt/ros/humble/share/rviz_default_plugins/icons/classes/MoveCamera.svg, at ./src/rviz_common/load_resource.cpp:55
+1734230847.9396913 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/MoveCamera.png, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9397418 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/PublishPoint.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9398088 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/Select.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9398606 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_default_plugins/icons/classes/Select.svg]: Couldn't open file /opt/ros/humble/share/rviz_default_plugins/icons/classes/Select.svg, at ./src/rviz_common/load_resource.cpp:55
+1734230847.9399092 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/Select.png, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9399745 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/SetGoal.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9400370 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_default_plugins/icons/classes/SetGoal.svg]: Couldn't open file /opt/ros/humble/share/rviz_default_plugins/icons/classes/SetGoal.svg, at ./src/rviz_common/load_resource.cpp:55
+1734230847.9400866 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/SetGoal.png, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9401355 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/SetInitialPose.svg, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9401829 [moveit_setup_assistant-1] [rviz_common:debug] Error retrieving file [file:///opt/ros/humble/share/rviz_default_plugins/icons/classes/SetInitialPose.svg]: Couldn't open file /opt/ros/humble/share/rviz_default_plugins/icons/classes/SetInitialPose.svg, at ./src/rviz_common/load_resource.cpp:55
+1734230847.9402308 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/SetInitialPose.png, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9402795 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/RobotLink.png, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9403262 [moveit_setup_assistant-1] [rviz_common:debug] Load pixmap at package://rviz_default_plugins/icons/classes/RobotJoint.png, at ./src/rviz_common/load_resource.cpp:71
+1734230847.9406185 [moveit_setup_assistant-1] Warning: Group 'platform' is empty.
+1734230847.9407547 [moveit_setup_assistant-1]          at line 262 in ./src/model.cpp
+1734230847.9408686 [moveit_setup_assistant-1] [INFO] [1734230847.938747907] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230847.9410260 [moveit_setup_assistant-1] [INFO] [1734230847.938800196] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230847.9411533 [moveit_setup_assistant-1] [WARN] [1734230847.938822369] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230848.3027587 [moveit_setup_assistant-1] [WARN] [1734230848.302201667] [moveit_robot_model.robot_model]: Group 'platform' must have at least one valid joint
+1734230848.3030789 [moveit_setup_assistant-1] [WARN] [1734230848.302249896] [moveit_robot_model.robot_model]: Failed to add group 'platform'
+1734230853.1548035 [moveit_setup_assistant-1] [INFO] [1734230853.154427736] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230853.1550741 [moveit_setup_assistant-1] [INFO] [1734230853.154460054] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230853.1551850 [moveit_setup_assistant-1] [WARN] [1734230853.154480082] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230878.4301910 [moveit_setup_assistant-1] [INFO] [1734230878.429799637] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230878.4304867 [moveit_setup_assistant-1] [INFO] [1734230878.429843043] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230878.4306302 [moveit_setup_assistant-1] [WARN] [1734230878.429865864] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230902.5028627 [moveit_setup_assistant-1] Warning: Group 'manip' is empty.
+1734230902.5030816 [moveit_setup_assistant-1]          at line 262 in ./src/model.cpp
+1734230902.5031729 [moveit_setup_assistant-1] [INFO] [1734230902.502567448] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230902.5032494 [moveit_setup_assistant-1] [INFO] [1734230902.502592721] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230902.5033216 [moveit_setup_assistant-1] [WARN] [1734230902.502608009] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230902.7890334 [moveit_setup_assistant-1] [WARN] [1734230902.788625746] [moveit_robot_model.robot_model]: Group 'manip' must have at least one valid joint
+1734230902.7893264 [moveit_setup_assistant-1] [WARN] [1734230902.788668769] [moveit_robot_model.robot_model]: Failed to add group 'manip'
+1734230906.2017026 [moveit_setup_assistant-1] [INFO] [1734230906.201225797] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230906.2018926 [moveit_setup_assistant-1] [INFO] [1734230906.201285338] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230906.2019925 [moveit_setup_assistant-1] [WARN] [1734230906.201315979] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230913.8745377 [moveit_setup_assistant-1] [INFO] [1734230913.874131034] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230913.8748269 [moveit_setup_assistant-1] [INFO] [1734230913.874176845] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230913.8751354 [moveit_setup_assistant-1] [WARN] [1734230913.874200648] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230961.8675294 [moveit_setup_assistant-1] Warning: Group 'end_effector' is empty.
+1734230961.8677812 [moveit_setup_assistant-1]          at line 262 in ./src/model.cpp
+1734230961.8678811 [moveit_setup_assistant-1] [INFO] [1734230961.867236632] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230961.8679600 [moveit_setup_assistant-1] [INFO] [1734230961.867262955] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230961.8682942 [moveit_setup_assistant-1] [WARN] [1734230961.867278805] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230962.2830238 [moveit_setup_assistant-1] [WARN] [1734230962.282522609] [moveit_robot_model.robot_model]: Group 'end_effector' must have at least one valid joint
+1734230962.2834074 [moveit_setup_assistant-1] [WARN] [1734230962.282574583] [moveit_robot_model.robot_model]: Failed to add group 'end_effector'
+1734230965.7872584 [moveit_setup_assistant-1] [INFO] [1734230965.787015132] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230965.7874229 [moveit_setup_assistant-1] [INFO] [1734230965.787039966] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230965.7875011 [moveit_setup_assistant-1] [WARN] [1734230965.787054589] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230970.3727255 [moveit_setup_assistant-1] [INFO] [1734230970.372382348] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230970.3729968 [moveit_setup_assistant-1] [INFO] [1734230970.372451257] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230970.3734062 [moveit_setup_assistant-1] [WARN] [1734230970.372472473] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230991.6500406 [moveit_setup_assistant-1] Error:   End effector 'end_effector' specified for group '', but that group is not known
+1734230991.6501975 [moveit_setup_assistant-1]          at line 428 in ./src/model.cpp
+1734230991.6502724 [moveit_setup_assistant-1] [INFO] [1734230991.649852311] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230991.6503282 [moveit_setup_assistant-1] [INFO] [1734230991.649872642] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230991.6507423 [moveit_setup_assistant-1] [WARN] [1734230991.649885304] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734230991.8662035 [moveit_setup_assistant-1] [INFO] [1734230991.865745077] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734230991.8664584 [moveit_setup_assistant-1] [INFO] [1734230991.865787135] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734230991.8666265 [moveit_setup_assistant-1] [WARN] [1734230991.865807738] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231070.6145608 [moveit_setup_assistant-1] [INFO] [1734231070.614294065] [collision_updater]: -------------------------------------------------------------------------------
+1734231070.6147578 [moveit_setup_assistant-1] [INFO] [1734231070.614329905] [collision_updater]: Statistics:
+1734231070.6148396 [moveit_setup_assistant-1] [INFO] [1734231070.614335673] [collision_updater]: Total Links : 5
+1734231070.6149151 [moveit_setup_assistant-1] [INFO] [1734231070.614343383] [collision_updater]: Total possible collisions : 10.000000
+1734231070.6149998 [moveit_setup_assistant-1] [INFO] [1734231070.614346946] [collision_updater]: Always in collision : 0
+1734231070.6150584 [moveit_setup_assistant-1] [INFO] [1734231070.614350255] [collision_updater]: Never in collision : 3
+1734231070.6151495 [moveit_setup_assistant-1] [INFO] [1734231070.614353366] [collision_updater]: Default in collision : 0
+1734231070.6152155 [moveit_setup_assistant-1] [INFO] [1734231070.614356629] [collision_updater]: Adjacent links disabled : 3
+1734231070.6152782 [moveit_setup_assistant-1] [INFO] [1734231070.614359706] [collision_updater]: Sometimes in collision : 4
+1734231070.6153364 [moveit_setup_assistant-1] [INFO] [1734231070.614362773] [collision_updater]: TOTAL DISABLED : 6
+1734231070.6158333 [moveit_setup_assistant-1] [INFO] [1734231070.614379414] [moveit_setup_assistant.Self-Collisions]: Thread complete 6
+1734231072.2681727 [moveit_setup_assistant-1] [INFO] [1734231072.267941374] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231072.2683575 [moveit_setup_assistant-1] [INFO] [1734231072.267968359] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231072.2684453 [moveit_setup_assistant-1] [WARN] [1734231072.267983743] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231198.4399211 [moveit_setup_assistant-1] [INFO] [1734231198.439687699] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231198.4400892 [moveit_setup_assistant-1] [INFO] [1734231198.439713994] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231198.4401670 [moveit_setup_assistant-1] [WARN] [1734231198.439729740] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231422.1101010 [moveit_setup_assistant-1] [INFO] [1734231422.109736819] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231422.1103163 [moveit_setup_assistant-1] [INFO] [1734231422.109770640] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231422.1103983 [moveit_setup_assistant-1] [WARN] [1734231422.109791606] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231422.4025178 [moveit_setup_assistant-1] [INFO] [1734231422.402101607] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231422.4027939 [moveit_setup_assistant-1] [INFO] [1734231422.402146381] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231422.4029667 [moveit_setup_assistant-1] [WARN] [1734231422.402168971] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231427.6681345 [moveit_setup_assistant-1] [INFO] [1734231427.667868889] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231427.6683114 [moveit_setup_assistant-1] [INFO] [1734231427.667925416] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231427.6683917 [moveit_setup_assistant-1] [WARN] [1734231427.667942217] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231428.1250610 [moveit_setup_assistant-1] [INFO] [1734231428.124515274] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231428.1254232 [moveit_setup_assistant-1] [INFO] [1734231428.124566255] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231428.1256237 [moveit_setup_assistant-1] [WARN] [1734231428.124591699] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231436.1597810 [moveit_setup_assistant-1] [INFO] [1734231436.159440942] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231436.1599946 [moveit_setup_assistant-1] [INFO] [1734231436.159481113] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231436.1601305 [moveit_setup_assistant-1] [WARN] [1734231436.159503682] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231443.3777852 [moveit_setup_assistant-1] [INFO] [1734231443.377481969] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231443.3780046 [moveit_setup_assistant-1] [INFO] [1734231443.377512033] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231443.3780909 [moveit_setup_assistant-1] [WARN] [1734231443.377530554] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231450.5394225 [moveit_setup_assistant-1] [INFO] [1734231450.539192869] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231450.5395770 [moveit_setup_assistant-1] [INFO] [1734231450.539219311] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231450.5396454 [moveit_setup_assistant-1] [WARN] [1734231450.539231789] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231528.8061466 [moveit_setup_assistant-1] [INFO] [1734231528.805912819] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231528.8063121 [moveit_setup_assistant-1] [INFO] [1734231528.805940599] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231528.8063967 [moveit_setup_assistant-1] [WARN] [1734231528.805956491] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231533.8438904 [moveit_setup_assistant-1] [INFO] [1734231533.843656131] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231533.8440497 [moveit_setup_assistant-1] [INFO] [1734231533.843682931] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231533.8441336 [moveit_setup_assistant-1] [WARN] [1734231533.843702917] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231553.5853271 [moveit_setup_assistant-1] [INFO] [1734231553.584909675] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231553.5856416 [moveit_setup_assistant-1] [INFO] [1734231553.584969656] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231553.5857868 [moveit_setup_assistant-1] [WARN] [1734231553.584991109] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231556.1382146 [moveit_setup_assistant-1] [INFO] [1734231556.137886192] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231556.1384597 [moveit_setup_assistant-1] [INFO] [1734231556.137920809] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231556.1386080 [moveit_setup_assistant-1] [WARN] [1734231556.137939801] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231796.2843878 [moveit_setup_assistant-1] [INFO] [1734231796.283665258] [collision_updater]: -------------------------------------------------------------------------------
+1734231796.2848451 [moveit_setup_assistant-1] [INFO] [1734231796.283769933] [collision_updater]: Statistics:
+1734231796.2851708 [moveit_setup_assistant-1] [INFO] [1734231796.283794669] [collision_updater]: Total Links : 5
+1734231796.2854278 [moveit_setup_assistant-1] [INFO] [1734231796.283823074] [collision_updater]: Total possible collisions : 10.000000
+1734231796.2856915 [moveit_setup_assistant-1] [INFO] [1734231796.283840667] [collision_updater]: Always in collision : 0
+1734231796.2865491 [moveit_setup_assistant-1] [INFO] [1734231796.283857185] [collision_updater]: Never in collision : 3
+1734231796.2868533 [moveit_setup_assistant-1] [INFO] [1734231796.283875059] [collision_updater]: Default in collision : 0
+1734231796.2871807 [moveit_setup_assistant-1] [INFO] [1734231796.283892199] [collision_updater]: Adjacent links disabled : 3
+1734231796.2874224 [moveit_setup_assistant-1] [INFO] [1734231796.283907880] [collision_updater]: Sometimes in collision : 4
+1734231796.2876403 [moveit_setup_assistant-1] [INFO] [1734231796.283925015] [collision_updater]: TOTAL DISABLED : 6
+1734231796.2878430 [moveit_setup_assistant-1] [INFO] [1734231796.284001019] [moveit_setup_assistant.Self-Collisions]: Thread complete 6
+1734231815.4050531 [moveit_setup_assistant-1] [INFO] [1734231815.404806081] [moveit_robot_model.robot_model]: Loading robot model 'robot_description'...
+1734231815.4052236 [moveit_setup_assistant-1] [INFO] [1734231815.404833410] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1734231815.4053211 [moveit_setup_assistant-1] [WARN] [1734231815.404851959] [moveit_robot_model.robot_model]: Link base_footprint has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1734231856.2543554 [moveit_setup_assistant-1] [ERROR] [1734231856.254072953] [moveit_setup_assistant.Configuration Files]: Failed to generate entire configuration package
+1734231897.4329085 [moveit_setup_assistant-1] [ERROR] [1734231897.432620537] [moveit_setup_assistant.Configuration Files]: Failed to generate entire configuration package
+1734231912.1788270 [moveit_setup_assistant-1] [ERROR] [1734231912.178562936] [moveit_setup_assistant.Configuration Files]: Failed to generate entire configuration package
+1734231936.9611676 [moveit_setup_assistant-1] [ERROR] [1734231936.960815634] [moveit_setup_assistant.Configuration Files]: Failed to generate entire configuration package
+1734231951.1161785 [moveit_setup_assistant-1] [ERROR] [1734231951.115821250] [moveit_setup_assistant.Configuration Files]: Failed to generate entire configuration package
+1734231964.1207182 [moveit_setup_assistant-1] [ERROR] [1734231964.120455205] [moveit_setup_assistant.Configuration Files]: Failed to generate entire configuration package
+1734231998.9167926 [moveit_setup_assistant-1] [ERROR] [1734231998.916452820] [moveit_setup_assistant.Configuration Files]: Failed to generate entire configuration package
+1734232097.0730612 [moveit_setup_assistant-1] [ERROR] [1734232097.072700278] [moveit_setup_assistant.Configuration Files]: Failed to generate entire configuration package
+1734232120.8764758 [INFO] [moveit_setup_assistant-1]: process has finished cleanly [pid 11798]

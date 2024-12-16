@@ -1,0 +1,174 @@
+Panels:
+  # Define os painéis principais da interface do RViz
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        # Expande automaticamente as opções globais, status e o modelo do robô na interface
+        - /Global Options1
+        - /Status1
+        - /RobotModel1
+      Splitter Ratio: 0.5  # Define a proporção de espaço ocupada por esta seção na interface
+    Tree Height: 555  # Altura da árvore de propriedades
+  - Class: rviz_common/Selection
+    Name: Selection  # Painel para selecionar objetos e componentes visuais
+  - Class: rviz_common/Tool Properties
+    Expanded:
+      - /2D Goal Pose1  # Configura ferramentas relacionadas ao envio de poses 2D
+      - /Publish Point1  # Configura ferramentas para publicar pontos no ambiente
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441  # Define a proporção de espaço deste painel
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1  # Define a visualização atualmente ativa
+    Name: Views
+    Splitter Ratio: 0.5  # Proporção de espaço do painel de visualizações
+  - Class: rviz_common/Time
+    Experimental: false  # Painel de controle de tempo, útil para simulações que dependem de tempo
+    Name: Time
+    SyncMode: 0  # Define como o tempo da simulação é sincronizado
+    SyncSource: ""  # Fonte de sincronização (nenhuma definida aqui)
+
+Visualization Manager:
+  # Gerenciador principal das visualizações
+  Class: ""  # Classe base do gerenciador
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1  # Define o tamanho das células da grade no plano XY
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164  # Cor da grade em RGB
+      Enabled: true  # Ativa a visualização da grade
+      Line Style:
+        Line Width: 0.03  # Largura das linhas da grade
+        Value: Lines  # Estilo das linhas
+      Name: Grid  # Nome do display
+      Normal Cell Count: 0  # Contagem padrão de células
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0  # Define a posição inicial da grade no espaço
+      Plane: XY  # Define o plano de visualização da grade
+      Plane Cell Count: 10  # Número de células visíveis no plano
+      Reference Frame: <Fixed Frame>  # Usa o frame fixo como referência
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false  # Desabilita a visualização de colisões
+      Description File: ""  # Arquivo de descrição do modelo do robô (não especificado diretamente aqui)
+      Description Source: Topic  # Fonte dos dados do robô vem de um tópico
+      Description Topic:
+        Depth: 5  # Número máximo de mensagens no buffer
+        Durability Policy: Volatile  # Política de retenção de mensagens: descarta quando não há assinantes
+        History Policy: Keep Last  # Mantém as últimas mensagens recebidas
+        Reliability Policy: Reliable  # Garante entrega confiável das mensagens
+        Value: /robot_description  # Tópico que publica o modelo URDF do robô
+      Enabled: true  # Ativa a visualização do modelo do robô
+      Links:
+        # Configurações para cada link do robô
+        All Links Enabled: true  # Ativa a visualização de todos os links
+        Expand Joint Details: false  # Não expande automaticamente os detalhes das juntas
+        Expand Link Details: false  # Não expande automaticamente os detalhes dos links
+        Expand Tree: false  # Não expande a árvore de links por padrão
+        Link Tree Style: Links in Alphabetic Order  # Ordena os links em ordem alfabética
+        base_footprint:
+          Alpha: 1  # Transparência do link
+          Show Axes: false  # Não mostra os eixos do link
+          Show Trail: false  # Não mostra o rastro do movimento
+          Value: true  # Ativa a visualização deste link
+        base_link:  # Configuração semelhante para o link base_link
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        end_effector:  # Configuração para o end effector
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        manip_link:  # Configuração para manip_link
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        plat_link:  # Configuração para plat_link
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Mass Properties:
+        Inertia: false  # Não exibe as propriedades de inércia
+        Mass: false  # Não exibe as propriedades de massa
+      Name: RobotModel  # Nome da visualização do modelo do robô
+      TF Prefix: ""  # Prefixo de transformação (nenhum aqui)
+      Update Interval: 0  # Intervalo de atualização
+      Value: true
+      Visual Enabled: true  # Habilita a visualização do modelo do robô
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48  # Cor de fundo da interface do RViz
+    Fixed Frame: base_link  # Define base_link como o frame fixo para todas as transformações
+    Frame Rate: 30  # Taxa de quadros por segundo para a renderização
+  Name: root
+  Tools:
+    # Ferramentas disponíveis na interface do RViz
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true  # Oculta objetos inativos
+    - Class: rviz_default_plugins/MoveCamera  # Ferramenta para mover a câmera
+    - Class: rviz_default_plugins/Select  # Ferramenta para selecionar objetos
+    - Class: rviz_default_plugins/FocusCamera  # Ferramenta para focar a câmera
+    - Class: rviz_default_plugins/Measure  # Ferramenta para medir distâncias
+      Line color: 128; 128; 0  # Cor da linha de medição
+    - Class: rviz_default_plugins/SetInitialPose  # Ferramenta para definir a pose inicial
+      Covariance x: 0.25  # Variância em X
+      Covariance y: 0.25  # Variância em Y
+      Covariance yaw: 0.06853891909122467  # Variância em yaw (rotação)
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /initialpose  # Tópico para publicar a pose inicial
+    - Class: rviz_default_plugins/SetGoal  # Ferramenta para definir metas
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /goal_pose  # Tópico para publicar a meta
+    - Class: rviz_default_plugins/PublishPoint  # Ferramenta para publicar pontos
+      Single click: true  # Permite clicar para publicar
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /clicked_point  # Tópico para publicar pontos
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF  # Plugin para visualização de TF (transformações)
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit  # Define a visão padrão como orbital
+      Distance: 0.9185046553611755  # Distância da câmera ao modelo
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549  # Configuração de visão estereoscópica
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.05237630009651184
+        Y: 0.05366324633359909
+        Z: 0.17032626271247864
+      Focal Shape Fixed Size: true  # Tamanho fixo para o ponto focal
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582  # Distância mínima de renderização
+      Pitch: 0.45539844036102295  # Inclinação da câmera
+      Target Frame: <Fixed Frame>  # Usa o frame fixo como alvo
+      Value: Orbit (rviz)
+      Yaw: 3.9935731887817383  # Rotação da câmera em torno do eixo Y
+    Saved: ~
+

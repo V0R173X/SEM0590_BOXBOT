@@ -1,0 +1,63 @@
+Dbg [parser.cc:954] Converting a deprecated source[/usr/share/ignition/ignition-gazebo6/worlds/empty.sdf].
+Dbg [Converter.cc:106] Version[1.6] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:914] No <sdf> element in file[<data-string>]
+Dbg [parser_urdf.cc:424] Fixed Joint Reduction: extension lumping from [base_link] to [base_footprint]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [base_link] with [base_footprint]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [base_link]-->[base_footprint]: [<frame name="base_footprint_joint" attached_to="base_footprint">
+    <pose>0 0 0.001 0 -0 0</pose>
+</frame>
+]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [base_link]-->[base_footprint]: [<frame name="base_link" attached_to="base_footprint_joint"/>
+]
+Dbg [parser_urdf.cc:756] LINK NAME: [parent: base_footprint] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0]
+Dbg [parser_urdf.cc:758]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:760]         I: [0, 0, 0]
+Dbg [parser_urdf.cc:762]            [0, 0, 0]
+Dbg [parser_urdf.cc:764]            [0, 0, 0]
+Dbg [parser_urdf.cc:756] LINK NAME: [link : base_link] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [2.55228]
+Dbg [parser_urdf.cc:758]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:760]         I: [0.0180851, -0.000148735, 0.00055095]
+Dbg [parser_urdf.cc:762]            [-0.000148735, 0.0211869, -0.000396573]
+Dbg [parser_urdf.cc:764]            [0.00055095, -0.000396573, 0.0237078]
+Dbg [parser_urdf.cc:756] LINK NAME: [link in parent link: base_link] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [2.55228]
+Dbg [parser_urdf.cc:758]        CG: [-0.00387269, 0.00879907, 0.103291]
+Dbg [parser_urdf.cc:760]         I: [0.0455128, -6.17633e-05, 0.00157189]
+Dbg [parser_urdf.cc:762]            [-6.17633e-05, 0.0484552, -0.00271624]
+Dbg [parser_urdf.cc:764]            [0.00157189, -0.00271624, 0.0239437]
+Dbg [parser_urdf.cc:756] LINK NAME: [combined: base_footprint] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [2.55228]
+Dbg [parser_urdf.cc:758]        CG: [-0.00387269, 0.00879907, 0.103291]
+Dbg [parser_urdf.cc:760]         I: [0.0455128, -6.17633e-05, 0.00157189]
+Dbg [parser_urdf.cc:762]            [-6.17633e-05, 0.0484552, -0.00271624]
+Dbg [parser_urdf.cc:764]            [0.00157189, -0.00271624, 0.0239437]
+Dbg [parser_urdf.cc:772] LINK NAME: [base_footprint] from dMass
+Dbg [parser_urdf.cc:773]      MASS: [2.55228]
+Dbg [parser_urdf.cc:774]        CG: [-0.00387269, 0.00879907, 0.103291]
+Dbg [parser_urdf.cc:777]         I: [0.0180851, -0.000148735, 0.00055095]
+Dbg [parser_urdf.cc:780]            [-0.000148735, 0.0211869, -0.000396573]
+Dbg [parser_urdf.cc:783]            [0.00055095, -0.000396573, 0.0237078]
+Dbg [parser_urdf.cc:983] lumping visual [] for link [base_link] to parent [base_footprint] with name [base_link]
+Dbg [parser_urdf.cc:1042] lumping collision [] for link [base_link] to parent [base_footprint] with name [base_link]
+Dbg [parser_urdf.cc:2849] [base_footprint] has no parent joint
+Dbg [parser_urdf.cc:2893] creating collision for link [base_footprint] collision [base_link]
+Dbg [parser_urdf.cc:2938] creating visual for link [base_footprint] visual []
+Dbg [parser_urdf.cc:2938] creating visual for link [base_footprint] visual [base_link]
+Dbg [parser_urdf.cc:2893] creating collision for link [plat_link] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [plat_link] visual []
+Warning [parser_urdf.cc:3130] urdf2sdf: revolute joint [plat_joint] with limits: lowStop[2.8] > highStop[-2.8], switching the two.
+Dbg [parser_urdf.cc:2893] creating collision for link [manip_link] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [manip_link] visual []
+Warning [parser_urdf.cc:3130] urdf2sdf: revolute joint [manip_joint] with limits: lowStop[0.07] > highStop[-0.01], switching the two.
+Dbg [parser_urdf.cc:2893] creating collision for link [end_effector] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [end_effector] visual []
+Warning [parser_urdf.cc:3130] urdf2sdf: revolute joint [end_effector_joint] with limits: lowStop[1] > highStop[-1], switching the two.
+Dbg [parser.cc:954] Converting a deprecated source[<urdf-string>].
+Dbg [Converter.cc:106] Version[1.7] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:843] Parsing from urdf.

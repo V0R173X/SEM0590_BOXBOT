@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Descrição do robô SCARA com 3 juntas principais -->
+<robot name="scara_robot">
+
+  <!-- Link base -->
+  <link name="base_footprint">
+      <!-- Representação visual da base -->
+      <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+              <box size="0.001 0.001 0.001" />
+          </geometry>
+      </visual>
+  </link>
+
+  <!-- Junta rotacional na base -->
+  <joint name="base_joint" type="revolute">
+      <!-- Origem da junta rotacional -->
+      <origin xyz="0 0 0.1" rpy="0 0 0" />
+      <!-- Link pai: base_footprint -->
+      <parent link="base_footprint"/>
+      <!-- Link filho: base_link -->
+      <child link="base_link"/>
+      <!-- Eixo de rotação -->
+      <axis xyz="0 0 1" />
+      <!-- Limites da rotação -->
+      <limit lower="-3.14" upper="3.14" effort="5.0" velocity="1.0" />
+  </joint>
+
+  <!-- Link conectado à junta rotacional -->
+  <link name="base_link">
+      <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+              <cylinder radius="0.05" length="0.1" />
+          </geometry>
+          <material name="">
+              <color rgba="0.5 0.5 0.5 1" />
+          </material>
+      </visual>
+  </link>
+
+  <!-- Junta prismática no meio -->
+  <joint name="prismatic_joint" type="prismatic">
+      <!-- Origem da junta prismática -->
+      <origin xyz="0 0 0.2" rpy="0 0 0" />
+      <!-- Link pai: base_link -->
+      <parent link="base_link"/>
+      <!-- Link filho: arm_link -->
+      <child link="arm_link"/>
+      <!-- Eixo de movimentação prismática -->
+      <axis xyz="0 0 1" />
+      <!-- Limites do movimento prismático -->
+      <limit lower="0.0" upper="0.3" effort="5.0" velocity="0.5" />
+  </joint>
+
+  <!-- Link do braço do robô -->
+  <link name="arm_link">
+      <visual>
+          <origin xyz="0 0 0.15" rpy="0 0 0" />
+          <geometry>
+              <box size="0.1 0.02 0.3" />
+          </geometry>
+          <material name="">
+              <color rgba="0.2 0.8 0.2 1" />
+          </material>
+      </visual>
+  </link>
+
+  <!-- Junta rotacional antes do end effector -->
+  <joint name="end_effector_joint" type="revolute">
+      <!-- Origem da junta rotacional -->
+      <origin xyz="0 0 0.4" rpy="0 0 0" />
+      <!-- Link pai: arm_link -->
+      <parent link="arm_link"/>
+      <!-- Link filho: end_effector -->
+      <child link="end_effector"/>
+      <!-- Eixo de rotação -->
+      <axis xyz="0 0 1" />
+      <!-- Limites da rotação -->
+      <limit lower="-1.57" upper="1.57" effort="2.0" velocity="1.0" />
+  </joint>
+
+  <!-- End effector -->
+  <link name="end_effector">
+      <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+              <sphere radius="0.02" />
+          </geometry>
+          <material name="">
+              <color rgba="0.8 0.2 0.2 1" />
+          </material>
+      </visual>
+  </link>
+
+</robot>

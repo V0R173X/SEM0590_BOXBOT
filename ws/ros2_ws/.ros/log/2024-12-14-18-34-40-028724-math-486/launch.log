@@ -1,0 +1,11 @@
+1734212080.0294647 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-18-34-40-028724-math-486
+1734212080.0295849 [INFO] [launch]: Default logging verbosity is set to INFO
+1734212080.0964711 [INFO] [xacro-1]: process started with pid [487]
+1734212080.0967071 [INFO] [robot_state_publisher-2]: process started with pid [490]
+1734212080.0968456 [INFO] [joint_state_publisher_gui-3]: process started with pid [492]
+1734212080.0970714 [INFO] [rviz2-4]: process started with pid [494]
+1734212080.1920867 [INFO] [xacro-1]: process has finished cleanly [pid 487]
+1734212080.3907700 [ERROR] [robot_state_publisher-2]: process has died [pid 490, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher --params-file /tmp/launch_params_jdtt87zi'].
+1734212082.5090647 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734212082.5181489 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 492, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734212082.7526677 [INFO] [rviz2-4]: process has finished cleanly [pid 494]

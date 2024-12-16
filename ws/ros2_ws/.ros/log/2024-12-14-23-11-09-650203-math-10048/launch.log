@@ -1,0 +1,14 @@
+1734228669.6517122 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-23-11-09-650203-math-10048
+1734228669.6519852 [INFO] [launch]: Default logging verbosity is set to INFO
+1734228670.4193106 [INFO] [robot_state_publisher-1]: process started with pid [10050]
+1734228670.4197705 [INFO] [ruby $(which ign) gazebo-2]: process started with pid [10052]
+1734228670.4200642 [INFO] [create-3]: process started with pid [10054]
+1734228670.4203475 [INFO] [parameter_bridge-4]: process started with pid [10057]
+1734228671.1680586 [ERROR] [ruby $(which ign) gazebo-2]: process has died [pid 10052, exit code 255, cmd 'ruby $(which ign) gazebo -v 4 -r empty.sdf dart --force-version 6'].
+1734228671.1687150 [INFO] [launch]: process[ruby $(which ign) gazebo-2] was required: shutting down launched system
+1734228671.1713490 [INFO] [parameter_bridge-4]: sending signal 'SIGINT' to process[parameter_bridge-4]
+1734228671.1726611 [INFO] [create-3]: sending signal 'SIGINT' to process[create-3]
+1734228671.1737204 [INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+1734228671.2817681 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 10057]
+1734228671.2846761 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 10050]
+1734228675.6949382 [ERROR] [create-3]: process has died [pid 10054, exit code 255, cmd '/opt/ros/humble/lib/ros_gz_sim/create -topic robot_description -name robot --ros-args'].

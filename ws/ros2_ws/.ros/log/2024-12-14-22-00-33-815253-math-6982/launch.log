@@ -1,0 +1,7 @@
+1734224433.8170345 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-22-00-33-815253-math-6982
+1734224433.8173528 [INFO] [launch]: Default logging verbosity is set to INFO
+1734224434.2684906 [INFO] [robot_state_publisher-1]: process started with pid [6984]
+1734224434.2688458 [INFO] [rviz2-2]: process started with pid [6986]
+1734224435.1180127 [ERROR] [robot_state_publisher-1]: process has died [pid 6984, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params_wlv5xqgw'].
+1734224634.2149925 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734224634.4775901 [INFO] [rviz2-2]: process has finished cleanly [pid 6986]

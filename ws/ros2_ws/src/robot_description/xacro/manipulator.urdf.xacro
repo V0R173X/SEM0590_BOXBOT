@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="manipulator">
+
+  <!-- Definição do link do manipulador -->
+  <xacro:macro name="manipulator" params="">
+    <link name="manip_link">
+      <inertial>
+        <origin xyz="0.00003 0.0316 0.1689" rpy="0 0 0" />
+        <mass value="0.0857" />
+        <inertia
+          ixx="0.0001"
+          ixy="-0.000005"
+          ixz="-0.000003"
+          iyy="0.000022"
+          iyz="0.000007"
+          izz="0.000114" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file://$(find robot_description)/meshes/visual/manip_link.STL" />
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file://$(find robot_description)/meshes/visual/manip_link.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Junta do manipulador -->
+    <joint name="manip_joint" type="prismatic">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <parent link="plat_link" />
+      <child link="manip_link" />
+      <axis xyz="-0.0009117 0.00044946 -1" />
+      <limit lower="0.07" upper="-0.01" effort="10" velocity="1" />
+    </joint>
+  </xacro:macro>
+
+</robot>

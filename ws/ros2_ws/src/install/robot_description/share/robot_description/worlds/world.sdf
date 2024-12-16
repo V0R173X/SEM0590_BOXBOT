@@ -1,0 +1,5 @@
+<sdf version="1.6">
+  <world name="default">
+    <physics name="default_physics" type="dart"/>
+  </world>
+</sdf>

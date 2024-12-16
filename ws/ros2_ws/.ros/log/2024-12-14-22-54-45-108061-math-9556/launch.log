@@ -1,0 +1,9 @@
+1734227685.1095111 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-22-54-45-108061-math-9556
+1734227685.1097515 [INFO] [launch]: Default logging verbosity is set to INFO
+1734227685.3769002 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+Captured stderr output: error: invalid expression: $(find robot_description 
+when evaluating expression 'load_yaml(yaml_file)' 
+when evaluating expression 'limits.end_effector_joint.lower'
+when instantiating macro: end_effector (/home/ros2_ws/install/robot_description/share/robot_description/xacro/./end_effector.urdf.xacro)
+in file: /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+

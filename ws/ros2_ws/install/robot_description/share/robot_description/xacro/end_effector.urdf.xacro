@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="end_effector">
+
+  <xacro:macro name="end_effector" params="">
+    <!-- Definição do link do efector final -->
+    <link name="end_effector">
+      <inertial>
+        <origin xyz="-0.0031 -0.0606 -0.0344" rpy="0 0 0" />
+        <mass value="0.0253" />
+        <inertia
+          ixx="1.52e-5"
+          ixy="-6.40e-7"
+          ixz="-3.17e-8"
+          iyy="1.61e-6"
+          iyz="-6.35e-7"
+          izz="1.58e-5" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file://$(find robot_description)/meshes/visual/end_effector.STL" />
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file://$(find robot_description)/meshes/visual/end_effector.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Junta do efector final -->
+    <joint name="end_effector_joint" type="revolute">
+      <origin xyz="0.000034 0.0998 0.1676" rpy="0 0 3.1416" />
+      <parent link="manip_link" />
+      <child link="end_effector" />
+      <axis xyz="0 0 -1" />
+      <limit lower="1" upper="-1" effort="10" velocity="1" />
+    </joint>
+  </xacro:macro>
+
+</robot>

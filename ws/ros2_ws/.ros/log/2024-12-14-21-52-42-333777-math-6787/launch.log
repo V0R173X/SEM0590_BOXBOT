@@ -1,0 +1,5 @@
+1734223962.3368506 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-21-52-42-333777-math-6787
+1734223962.3376985 [INFO] [launch]: Default logging verbosity is set to INFO
+1734223962.4541683 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - NameError: name 'PathJoinSubstitution' is not defined
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

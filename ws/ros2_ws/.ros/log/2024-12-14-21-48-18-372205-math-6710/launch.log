@@ -1,0 +1,11 @@
+1734223698.3740335 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-21-48-18-372205-math-6710
+1734223698.3743465 [INFO] [launch]: Default logging verbosity is set to INFO
+1734223698.7748733 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+Captured stderr output: XML parsing error: unbound prefix: line 2, column 0
+when processing file: /home/ros2_ws/install/robot_description/share/robot_description/xacro/./manipulator.urdf.xacro
+included from: /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+
+Check that:
+ - Your XML is well-formed
+ - You have the xacro xmlns declaration: xmlns:xacro="http://www.ros.org/wiki/xacro"
+

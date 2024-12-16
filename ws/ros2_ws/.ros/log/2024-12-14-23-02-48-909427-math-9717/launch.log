@@ -1,0 +1,6 @@
+1734228168.9104834 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-23-02-48-909427-math-9717
+1734228168.9106810 [INFO] [launch]: Default logging verbosity is set to INFO
+1734228169.1588821 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro calibration_file:=/home/ros2_ws/install/robot_description/share/robot_description/config/calibration.yaml
+Captured stderr output: error: Cannot substitute $(dirname),no file/directory information available.
+when processing file: /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+

@@ -1,0 +1,5 @@
+1734210939.1961820 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-18-15-39-195569-math-385
+1734210939.1963441 [INFO] [launch]: Default logging verbosity is set to INFO
+1734210939.2535384 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - PackageNotFoundError: "package 'gazebo_ros' not found, searching: ['/home/ros2_ws/install/test_urdf_tool', '/home/ros2_ws/install/robot_description', '/opt/ros/humble']"
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

@@ -1,0 +1,6 @@
+1734224194.9077792 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-21-56-34-905688-math-6909
+1734224194.9081471 [INFO] [launch]: Default logging verbosity is set to INFO
+1734224195.2942483 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+Captured stderr output: error: unknown macro name: xacro:base
+when processing file: /home/ros2_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+

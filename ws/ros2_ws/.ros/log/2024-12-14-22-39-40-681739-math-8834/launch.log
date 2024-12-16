@@ -1,0 +1,9 @@
+1734226780.6849794 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-22-39-40-681739-math-8834
+1734226780.6855114 [INFO] [launch]: Default logging verbosity is set to INFO
+1734226781.2083650 [INFO] [joint_state_publisher_gui-1]: process started with pid [8836]
+1734226781.2095678 [INFO] [robot_state_publisher-2]: process started with pid [8838]
+1734226781.2108936 [INFO] [rviz2-3]: process started with pid [8840]
+1734226804.2155013 [INFO] [joint_state_publisher_gui-1]: process has finished cleanly [pid 8836]
+1734226810.0642638 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734226810.1870739 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 8838]
+1734226810.3949180 [INFO] [rviz2-3]: process has finished cleanly [pid 8840]

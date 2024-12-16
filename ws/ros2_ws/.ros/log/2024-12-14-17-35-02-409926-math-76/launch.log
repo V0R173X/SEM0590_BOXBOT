@@ -1,0 +1,9 @@
+1734208502.4105172 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-17-35-02-409926-math-76
+1734208502.4106317 [INFO] [launch]: Default logging verbosity is set to INFO
+1734208502.4673061 [INFO] [joint_state_publisher_gui-1]: process started with pid [77]
+1734208502.4674623 [INFO] [robot_state_publisher-2]: process started with pid [79]
+1734208502.4675505 [INFO] [rviz2-3]: process started with pid [81]
+1734208556.3676460 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734208556.3780434 [ERROR] [joint_state_publisher_gui-1]: process has died [pid 77, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui /home/ros2_ws/install/robot_description/share/robot_description/urdf/robot_description.urdf --ros-args -r __node:=joint_state_publisher_gui'].
+1734208556.4779384 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 79]
+1734208556.5555270 [INFO] [rviz2-3]: process has finished cleanly [pid 81]

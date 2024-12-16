@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000631] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000861] (moveit_config) JobQueued: {'identifier': 'moveit_config', 'dependencies': OrderedDict([('robot_description', '/home/ros2_ws/install/robot_description')])}
+[0.000949] (moveit_config) JobStarted: {'identifier': 'moveit_config'}
+[0.044709] (moveit_config) JobEnded: {'identifier': 'moveit_config', 'rc': 1}
+[0.055245] (-) EventReactorShutdown: {}

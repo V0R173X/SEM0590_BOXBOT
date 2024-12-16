@@ -1,0 +1,3 @@
+1734225381.1175458 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-22-16-21-114332-math-7573
+1734225381.1180036 [INFO] [launch]: Default logging verbosity is set to INFO
+1734225381.3602564 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executable 'joint_state_publisher_gui' not found on the libexec directory '/opt/ros/humble/lib/joint_state_publisher' 

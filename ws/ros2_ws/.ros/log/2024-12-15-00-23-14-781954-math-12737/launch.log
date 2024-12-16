@@ -1,0 +1,56 @@
+1734232994.7833855 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-00-23-14-781954-math-12737
+1734232994.7836380 [INFO] [launch]: Default logging verbosity is set to INFO
+1734232996.5635772 [INFO] [robot_state_publisher-1]: process started with pid [12738]
+1734232996.5645480 [INFO] [move_group-2]: process started with pid [12740]
+1734232996.5652244 [INFO] [rviz2-3]: process started with pid [12742]
+1734232996.5658305 [INFO] [ros2_control_node-4]: process started with pid [12744]
+1734232996.5661232 [INFO] [spawner-5]: process started with pid [12746]
+1734232996.5663457 [INFO] [spawner-6]: process started with pid [12748]
+1734232996.6505122 [ros2_control_node-4] [WARN] [1734232996.649895688] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1734232996.6532252 [ros2_control_node-4] [INFO] [1734232996.652792302] [resource_manager]: Loading hardware 'FakeSystem' 
+1734232996.6574669 [ros2_control_node-4] [INFO] [1734232996.655728026] [resource_manager]: Initialize hardware 'FakeSystem' 
+1734232996.6586256 [ros2_control_node-4] [WARN] [1734232996.655850923] [mock_generic_system]: Parsing of optional initial interface values failed or uses a deprecated format. Add initial values for every state interface in the ros2_control.xacro. For example: 
+1734232996.6593354 [ros2_control_node-4] <state_interface name="velocity"> 
+1734232996.6599779 [ros2_control_node-4]   <param name="initial_value">0.0</param> 
+1734232996.6605525 [ros2_control_node-4] </state_interface>
+1734232996.6616182 [ros2_control_node-4] [INFO] [1734232996.655888722] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+1734232996.6628819 [ros2_control_node-4] [INFO] [1734232996.655997604] [resource_manager]: 'configure' hardware 'FakeSystem' 
+1734232996.6639788 [ros2_control_node-4] [INFO] [1734232996.656022470] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+1734232996.6650779 [ros2_control_node-4] [INFO] [1734232996.656039856] [resource_manager]: 'activate' hardware 'FakeSystem' 
+1734232996.6657538 [ros2_control_node-4] [INFO] [1734232996.656055820] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+1734232996.6919029 [ros2_control_node-4] [WARN] [1734232996.691312533] [controller_manager]: Unable to lock the memory : 'No proper privileges to lock the memory!'
+1734232996.6939235 [ros2_control_node-4] [INFO] [1734232996.691396927] [controller_manager]: update rate is 100 Hz
+1734232996.6977041 [ros2_control_node-4] [INFO] [1734232996.691425226] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1734232996.7016680 [ros2_control_node-4] [WARN] [1734232996.701231357] [controller_manager]: No real-time kernel detected on this system. See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1734232997.4542382 [rviz2-3] [INFO] [1734232997.453418206] [rviz2]: Stereo is NOT SUPPORTED
+1734232997.4558220 [rviz2-3] [INFO] [1734232997.453671542] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1734232997.5446196 [rviz2-3] [INFO] [1734232997.543831110] [rviz2]: Stereo is NOT SUPPORTED
+1734232997.8740656 [rviz2-3] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1734232997.8746405 [rviz2-3]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1734232998.0787497 [ros2_control_node-4] [INFO] [1734232998.078458429] [controller_manager]: Loading controller 'arm_controller'
+1734232998.0932162 [ros2_control_node-4] [WARN] [1734232998.092798955] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+1734232998.1330335 [ros2_control_node-4] [INFO] [1734232998.132510438] [controller_manager]: Loading controller 'joint_state_broadcaster'
+1734232998.1691434 [ros2_control_node-4] [INFO] [1734232998.167744887] [controller_manager]: Configuring controller 'arm_controller'
+1734232998.1701412 [ERROR] [move_group-2]: process has died [pid 12740, exit code -6, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_srcfin_6 --params-file /tmp/launch_params_rmislng4'].
+1734232998.1716821 [ros2_control_node-4] [INFO] [1734232998.168345091] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+1734232998.1723042 [ros2_control_node-4] [INFO] [1734232998.168421790] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+1734232998.1726913 [ros2_control_node-4] [INFO] [1734232998.168492312] [arm_controller]: Using 'splines' interpolation method.
+1734232998.1752410 [ros2_control_node-4] [INFO] [1734232998.174460640] [arm_controller]: Controller state will be published at 50.00 Hz.
+1734232998.1856353 [ros2_control_node-4] [INFO] [1734232998.184905659] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+1734232998.3469889 [ros2_control_node-4] [INFO] [1734232998.345862491] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+1734232998.3490157 [ros2_control_node-4] [INFO] [1734232998.346278225] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+1734232998.5757577 [INFO] [spawner-5]: process has finished cleanly [pid 12746]
+1734232998.6181881 [INFO] [spawner-6]: process has finished cleanly [pid 12748]
+1734233000.9309878 [rviz2-3] [ERROR] [1734233000.930704050] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1734233000.9557748 [rviz2-3] [INFO] [1734233000.955423608] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1734233011.1667809 [rviz2-3] [ERROR] [1734233011.166449924] [rviz]: Could not find parameter robot_description_semantic and did not receive robot_description_semantic via std_msgs::msg::String subscription within 10.000000 seconds.
+1734233011.2147989 [rviz2-3] Error:   Could not parse the SRDF XML File. Error=XML_ERROR_EMPTY_DOCUMENT ErrorID=13 (0xd) Line number=0
+1734233011.2151823 [rviz2-3]          at line 732 in ./src/model.cpp
+1734233011.2153924 [rviz2-3] [ERROR] [1734233011.214222613] [moveit_rdf_loader.rdf_loader]: Unable to parse SRDF
+1734233011.2570968 [rviz2-3] [ERROR] [1734233011.256205761] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Robot model not loaded
+1734233030.0076177 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734233030.0281415 [rviz2-3] [INFO] [1734233030.006382520] [rclcpp]: signal_handler(signum=2)
+1734233030.0299845 [ros2_control_node-4] [INFO] [1734233030.006461727] [rclcpp]: signal_handler(signum=2)
+1734233030.1822131 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 12738]
+1734233030.2521274 [INFO] [ros2_control_node-4]: process has finished cleanly [pid 12744]
+1734233030.5349934 [ERROR] [rviz2-3]: process has died [pid 12742, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ros2_ws/install/moveit_config/share/moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_lrmdxb_g --params-file /tmp/launch_params_77febagn'].

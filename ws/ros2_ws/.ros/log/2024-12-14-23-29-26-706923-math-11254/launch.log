@@ -1,0 +1,12 @@
+1734229766.7088180 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-23-29-26-706923-math-11254
+1734229766.7092001 [INFO] [launch]: Default logging verbosity is set to INFO
+1734229767.4846892 [INFO] [robot_state_publisher-1]: process started with pid [11256]
+1734229767.4854596 [INFO] [ruby $(which ign) gazebo-2]: process started with pid [11258]
+1734229767.4861588 [INFO] [create-3]: process started with pid [11260]
+1734229767.4868131 [INFO] [parameter_bridge-4]: process started with pid [11263]
+1734229768.8263266 [INFO] [create-3]: process has finished cleanly [pid 11260]
+1734229967.9602783 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734229968.0789545 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 11256]
+1734229968.0813851 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 11263]
+1734229968.8003008 [ERROR] [ruby $(which ign) gazebo-2]: process has died [pid 11258, exit code -2, cmd 'ruby $(which ign) gazebo -v 4 -r empty.sdf --force-version 6'].
+1734229968.8009884 [INFO] [launch]: process[ruby $(which ign) gazebo-2] was required: shutting down launched system

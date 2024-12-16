@@ -1,0 +1,7 @@
+1734224976.9030647 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-22-09-36-901899-math-7160
+1734224976.9033051 [INFO] [launch]: Default logging verbosity is set to INFO
+1734224977.4888518 [INFO] [robot_state_publisher-1]: process started with pid [7162]
+1734224977.4896412 [INFO] [rviz2-2]: process started with pid [7164]
+1734225154.7076735 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734225154.8213139 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 7162]
+1734225155.0121915 [INFO] [rviz2-2]: process has finished cleanly [pid 7164]

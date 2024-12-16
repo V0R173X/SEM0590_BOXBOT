@@ -1,0 +1,3 @@
+1734223513.4767146 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-21-45-13-475036-math-6637
+1734223513.4770613 [INFO] [launch]: Default logging verbosity is set to INFO
+1734223513.6094127 [ERROR] [launch]: Caught exception in launch (see debug for traceback): 'NoneType' object has no attribute 'get_launch_arguments_with_include_launch_description_actions'
